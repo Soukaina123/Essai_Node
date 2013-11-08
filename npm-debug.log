@@ -1,0 +1,1415 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'express' ]
+2 info using npm@1.3.11
+3 info using node@v0.10.21
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose cache add [ 'express', null ]
+6 verbose cache add name=undefined spec="express" args=["express",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'express',
+7 verbose parsed url   path: 'express',
+7 verbose parsed url   href: 'express' }
+8 silly lockFile f3c62de4-express express
+9 verbose lock express C:\Users\Anass\AppData\Roaming\npm-cache\f3c62de4-express.lock
+10 silly lockFile f3c62de4-express express
+11 silly lockFile f3c62de4-express express
+12 verbose addNamed [ 'express', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 64a534c1-express express@
+15 verbose lock express@ C:\Users\Anass\AppData\Roaming\npm-cache\64a534c1-express.lock
+16 silly addNameRange { name: 'express', range: '*', hasData: false }
+17 verbose url raw express
+18 verbose url resolving [ 'https://registry.npmjs.org/', './express' ]
+19 verbose url resolved https://registry.npmjs.org/express
+20 info trying registry request attempt 1 at 18:09:08
+21 verbose etag "DKZZXP5I7PNN2271E4AVY3OJI"
+22 http GET https://registry.npmjs.org/express
+23 http 304 https://registry.npmjs.org/express
+24 silly registry.get cb [ 304,
+24 silly registry.get   { server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+24 silly registry.get     etag: '"DKZZXP5I7PNN2271E4AVY3OJI"',
+24 silly registry.get     date: 'Mon, 04 Nov 2013 19:09:30 GMT',
+24 silly registry.get     'content-length': '0' } ]
+25 verbose etag express from cache
+26 silly addNameRange number 2 { name: 'express', range: '*', hasData: true }
+27 silly addNameRange versions [ 'express',
+27 silly addNameRange   [ '0.14.0',
+27 silly addNameRange     '0.14.1',
+27 silly addNameRange     '1.0.0',
+27 silly addNameRange     '1.0.1',
+27 silly addNameRange     '1.0.2',
+27 silly addNameRange     '1.0.3',
+27 silly addNameRange     '1.0.4',
+27 silly addNameRange     '1.0.5',
+27 silly addNameRange     '1.0.6',
+27 silly addNameRange     '1.0.7',
+27 silly addNameRange     '1.0.8',
+27 silly addNameRange     '2.0.0',
+27 silly addNameRange     '2.1.0',
+27 silly addNameRange     '2.1.1',
+27 silly addNameRange     '2.2.0',
+27 silly addNameRange     '2.2.1',
+27 silly addNameRange     '2.2.2',
+27 silly addNameRange     '2.3.0',
+27 silly addNameRange     '2.3.1',
+27 silly addNameRange     '2.3.2',
+27 silly addNameRange     '2.3.3',
+27 silly addNameRange     '2.3.4',
+27 silly addNameRange     '2.3.5',
+27 silly addNameRange     '2.3.6',
+27 silly addNameRange     '2.3.7',
+27 silly addNameRange     '2.3.8',
+27 silly addNameRange     '2.3.9',
+27 silly addNameRange     '2.3.10',
+27 silly addNameRange     '2.3.11',
+27 silly addNameRange     '2.3.12',
+27 silly addNameRange     '2.4.0',
+27 silly addNameRange     '2.4.1',
+27 silly addNameRange     '2.4.2',
+27 silly addNameRange     '2.4.3',
+27 silly addNameRange     '2.4.4',
+27 silly addNameRange     '2.4.5',
+27 silly addNameRange     '2.4.6',
+27 silly addNameRange     '2.4.7',
+27 silly addNameRange     '2.5.0',
+27 silly addNameRange     '2.5.1',
+27 silly addNameRange     '2.5.2',
+27 silly addNameRange     '2.5.3',
+27 silly addNameRange     '2.5.4',
+27 silly addNameRange     '2.5.5',
+27 silly addNameRange     '2.5.6',
+27 silly addNameRange     '2.5.7',
+27 silly addNameRange     '2.5.8',
+27 silly addNameRange     '2.5.9',
+27 silly addNameRange     '2.5.10',
+27 silly addNameRange     '2.5.11',
+27 silly addNameRange     '3.0.0',
+27 silly addNameRange     '3.0.1',
+27 silly addNameRange     '3.0.2',
+27 silly addNameRange     '3.0.3',
+27 silly addNameRange     '3.0.4',
+27 silly addNameRange     '3.0.5',
+27 silly addNameRange     '3.0.6',
+27 silly addNameRange     '3.1.0',
+27 silly addNameRange     '3.1.1',
+27 silly addNameRange     '3.1.2',
+27 silly addNameRange     '3.2.0',
+27 silly addNameRange     '3.2.1',
+27 silly addNameRange     '3.2.2',
+27 silly addNameRange     '3.2.3',
+27 silly addNameRange     '3.2.4',
+27 silly addNameRange     '3.2.5',
+27 silly addNameRange     '3.2.6',
+27 silly addNameRange     '3.3.0',
+27 silly addNameRange     '3.3.1',
+27 silly addNameRange     '3.3.2',
+27 silly addNameRange     '3.3.3',
+27 silly addNameRange     '3.3.4',
+27 silly addNameRange     '3.3.5',
+27 silly addNameRange     '3.3.6',
+27 silly addNameRange     '1.0.0-beta',
+27 silly addNameRange     '1.0.0-beta2',
+27 silly addNameRange     '1.0.0-rc',
+27 silly addNameRange     '1.0.0-rc2',
+27 silly addNameRange     '1.0.0-rc3',
+27 silly addNameRange     '1.0.0-rc4',
+27 silly addNameRange     '2.0.0-beta',
+27 silly addNameRange     '2.0.0-beta2',
+27 silly addNameRange     '2.0.0-beta3',
+27 silly addNameRange     '2.0.0-rc',
+27 silly addNameRange     '2.0.0-rc2',
+27 silly addNameRange     '2.0.0-rc3',
+27 silly addNameRange     '3.0.0-alpha1',
+27 silly addNameRange     '3.0.0-alpha2',
+27 silly addNameRange     '3.0.0-alpha3',
+27 silly addNameRange     '3.0.0-alpha4',
+27 silly addNameRange     '3.0.0-alpha5',
+27 silly addNameRange     '3.0.0-beta1',
+27 silly addNameRange     '3.0.0-beta2',
+27 silly addNameRange     '3.0.0-beta3',
+27 silly addNameRange     '3.0.0-beta4',
+27 silly addNameRange     '3.0.0-beta6',
+27 silly addNameRange     '3.0.0-beta7',
+27 silly addNameRange     '3.0.0-rc1',
+27 silly addNameRange     '3.0.0-rc2',
+27 silly addNameRange     '3.0.0-rc3',
+27 silly addNameRange     '3.0.0-rc4',
+27 silly addNameRange     '3.0.0-rc5',
+27 silly addNameRange     '3.3.7',
+27 silly addNameRange     '3.3.8',
+27 silly addNameRange     '3.4.0',
+27 silly addNameRange     '3.4.1',
+27 silly addNameRange     '3.4.2',
+27 silly addNameRange     '3.4.3',
+27 silly addNameRange     '3.4.4' ] ]
+28 verbose addNamed [ 'express', '3.4.4' ]
+29 verbose addNamed [ '3.4.4', '3.4.4' ]
+30 silly lockFile edcc27a2-express-3-4-4 express@3.4.4
+31 verbose lock express@3.4.4 C:\Users\Anass\AppData\Roaming\npm-cache\edcc27a2-express-3-4-4.lock
+32 silly lockFile 7d03e4c5-js-org-express-express-3-4-4-tgz https://registry.npmjs.org/express/-/express-3.4.4.tgz
+33 verbose lock https://registry.npmjs.org/express/-/express-3.4.4.tgz C:\Users\Anass\AppData\Roaming\npm-cache\7d03e4c5-js-org-express-express-3-4-4-tgz.lock
+34 verbose addRemoteTarball [ 'https://registry.npmjs.org/express/-/express-3.4.4.tgz',
+34 verbose addRemoteTarball   '0b63ae626c96b71b78d13dfce079c10351635a86' ]
+35 info retry fetch attempt 1 at 18:09:31
+36 verbose fetch to= C:\Users\Anass\AppData\Local\Temp\npm-4232-R-_EpUnE\1383592170995-0.5671907146461308\tmp.tgz
+37 http GET https://registry.npmjs.org/express/-/express-3.4.4.tgz
+38 http 200 https://registry.npmjs.org/express/-/express-3.4.4.tgz
+39 verbose tar unpack C:\Users\Anass\AppData\Local\Temp\npm-4232-R-_EpUnE\1383592170995-0.5671907146461308\tmp.tgz
+40 silly lockFile 366a345a-70995-0-5671907146461308-package tar://C:\Users\Anass\AppData\Local\Temp\npm-4232-R-_EpUnE\1383592170995-0.5671907146461308\package
+41 verbose lock tar://C:\Users\Anass\AppData\Local\Temp\npm-4232-R-_EpUnE\1383592170995-0.5671907146461308\package C:\Users\Anass\AppData\Roaming\npm-cache\366a345a-70995-0-5671907146461308-package.lock
+42 silly lockFile 83278826-70995-0-5671907146461308-tmp-tgz tar://C:\Users\Anass\AppData\Local\Temp\npm-4232-R-_EpUnE\1383592170995-0.5671907146461308\tmp.tgz
+43 verbose lock tar://C:\Users\Anass\AppData\Local\Temp\npm-4232-R-_EpUnE\1383592170995-0.5671907146461308\tmp.tgz C:\Users\Anass\AppData\Roaming\npm-cache\83278826-70995-0-5671907146461308-tmp-tgz.lock
+44 silly gunzTarPerm modes [ '755', '644' ]
+45 silly gunzTarPerm extractEntry package.json
+46 silly gunzTarPerm extractEntry .npmignore
+47 silly gunzTarPerm extractEntry LICENSE
+48 silly gunzTarPerm extractEntry index.js
+49 silly gunzTarPerm extractEntry .travis.yml
+50 silly gunzTarPerm extractEntry History.md
+51 silly gunzTarPerm extractEntry Makefile
+52 silly gunzTarPerm extractEntry Readme.md
+53 silly gunzTarPerm extractEntry bin/express
+54 silly gunzTarPerm extractEntry lib/application.js
+55 silly gunzTarPerm extractEntry lib/express.js
+56 silly gunzTarPerm extractEntry lib/middleware.js
+57 silly gunzTarPerm extractEntry lib/request.js
+58 silly gunzTarPerm extractEntry lib/response.js
+59 silly gunzTarPerm extractEntry lib/utils.js
+60 silly gunzTarPerm extractEntry lib/view.js
+61 silly gunzTarPerm extractEntry lib/router/index.js
+62 silly gunzTarPerm extractEntry lib/router/route.js
+63 silly lockFile 366a345a-70995-0-5671907146461308-package tar://C:\Users\Anass\AppData\Local\Temp\npm-4232-R-_EpUnE\1383592170995-0.5671907146461308\package
+64 silly lockFile 366a345a-70995-0-5671907146461308-package tar://C:\Users\Anass\AppData\Local\Temp\npm-4232-R-_EpUnE\1383592170995-0.5671907146461308\package
+65 silly lockFile 83278826-70995-0-5671907146461308-tmp-tgz tar://C:\Users\Anass\AppData\Local\Temp\npm-4232-R-_EpUnE\1383592170995-0.5671907146461308\tmp.tgz
+66 silly lockFile 83278826-70995-0-5671907146461308-tmp-tgz tar://C:\Users\Anass\AppData\Local\Temp\npm-4232-R-_EpUnE\1383592170995-0.5671907146461308\tmp.tgz
+67 verbose tar pack [ 'C:\\Users\\Anass\\AppData\\Roaming\\npm-cache\\express\\3.4.4\\package.tgz',
+67 verbose tar pack   'C:\\Users\\Anass\\AppData\\Local\\Temp\\npm-4232-R-_EpUnE\\1383592170995-0.5671907146461308\\package' ]
+68 verbose tarball C:\Users\Anass\AppData\Roaming\npm-cache\express\3.4.4\package.tgz
+69 verbose folder C:\Users\Anass\AppData\Local\Temp\npm-4232-R-_EpUnE\1383592170995-0.5671907146461308\package
+70 silly lockFile 366a345a-70995-0-5671907146461308-package tar://C:\Users\Anass\AppData\Local\Temp\npm-4232-R-_EpUnE\1383592170995-0.5671907146461308\package
+71 verbose lock tar://C:\Users\Anass\AppData\Local\Temp\npm-4232-R-_EpUnE\1383592170995-0.5671907146461308\package C:\Users\Anass\AppData\Roaming\npm-cache\366a345a-70995-0-5671907146461308-package.lock
+72 silly lockFile 42a28443--cache-express-3-4-4-package-tgz tar://C:\Users\Anass\AppData\Roaming\npm-cache\express\3.4.4\package.tgz
+73 verbose lock tar://C:\Users\Anass\AppData\Roaming\npm-cache\express\3.4.4\package.tgz C:\Users\Anass\AppData\Roaming\npm-cache\42a28443--cache-express-3-4-4-package-tgz.lock
+74 silly lockFile 366a345a-70995-0-5671907146461308-package tar://C:\Users\Anass\AppData\Local\Temp\npm-4232-R-_EpUnE\1383592170995-0.5671907146461308\package
+75 silly lockFile 366a345a-70995-0-5671907146461308-package tar://C:\Users\Anass\AppData\Local\Temp\npm-4232-R-_EpUnE\1383592170995-0.5671907146461308\package
+76 silly lockFile 42a28443--cache-express-3-4-4-package-tgz tar://C:\Users\Anass\AppData\Roaming\npm-cache\express\3.4.4\package.tgz
+77 silly lockFile 42a28443--cache-express-3-4-4-package-tgz tar://C:\Users\Anass\AppData\Roaming\npm-cache\express\3.4.4\package.tgz
+78 silly lockFile ada1a731--npm-cache-express-3-4-4-package C:\Users\Anass\AppData\Roaming\npm-cache\express\3.4.4\package
+79 verbose lock C:\Users\Anass\AppData\Roaming\npm-cache\express\3.4.4\package C:\Users\Anass\AppData\Roaming\npm-cache\ada1a731--npm-cache-express-3-4-4-package.lock
+80 silly lockFile ada1a731--npm-cache-express-3-4-4-package C:\Users\Anass\AppData\Roaming\npm-cache\express\3.4.4\package
+81 silly lockFile ada1a731--npm-cache-express-3-4-4-package C:\Users\Anass\AppData\Roaming\npm-cache\express\3.4.4\package
+82 verbose tar unpack C:\Users\Anass\AppData\Roaming\npm-cache\express\3.4.4\package.tgz
+83 silly lockFile 23bbff2e--npm-cache-express-3-4-4-package tar://C:\Users\Anass\AppData\Roaming\npm-cache\express\3.4.4\package
+84 verbose lock tar://C:\Users\Anass\AppData\Roaming\npm-cache\express\3.4.4\package C:\Users\Anass\AppData\Roaming\npm-cache\23bbff2e--npm-cache-express-3-4-4-package.lock
+85 silly lockFile 42a28443--cache-express-3-4-4-package-tgz tar://C:\Users\Anass\AppData\Roaming\npm-cache\express\3.4.4\package.tgz
+86 verbose lock tar://C:\Users\Anass\AppData\Roaming\npm-cache\express\3.4.4\package.tgz C:\Users\Anass\AppData\Roaming\npm-cache\42a28443--cache-express-3-4-4-package-tgz.lock
+87 silly gunzTarPerm modes [ '755', '644' ]
+88 silly gunzTarPerm extractEntry package.json
+89 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+90 silly gunzTarPerm extractEntry .npmignore
+91 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+92 silly gunzTarPerm extractEntry LICENSE
+93 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+94 silly gunzTarPerm extractEntry index.js
+95 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+96 silly gunzTarPerm extractEntry .travis.yml
+97 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+98 silly gunzTarPerm extractEntry bin/express
+99 silly gunzTarPerm modified mode [ 'bin/express', 438, 420 ]
+100 silly gunzTarPerm extractEntry History.md
+101 silly gunzTarPerm modified mode [ 'History.md', 438, 420 ]
+102 silly gunzTarPerm extractEntry lib/application.js
+103 silly gunzTarPerm modified mode [ 'lib/application.js', 438, 420 ]
+104 silly gunzTarPerm extractEntry lib/express.js
+105 silly gunzTarPerm modified mode [ 'lib/express.js', 438, 420 ]
+106 silly gunzTarPerm extractEntry lib/middleware.js
+107 silly gunzTarPerm modified mode [ 'lib/middleware.js', 438, 420 ]
+108 silly gunzTarPerm extractEntry lib/request.js
+109 silly gunzTarPerm modified mode [ 'lib/request.js', 438, 420 ]
+110 silly gunzTarPerm extractEntry lib/response.js
+111 silly gunzTarPerm modified mode [ 'lib/response.js', 438, 420 ]
+112 silly gunzTarPerm extractEntry lib/utils.js
+113 silly gunzTarPerm modified mode [ 'lib/utils.js', 438, 420 ]
+114 silly gunzTarPerm extractEntry lib/view.js
+115 silly gunzTarPerm modified mode [ 'lib/view.js', 438, 420 ]
+116 silly gunzTarPerm extractEntry lib/router/index.js
+117 silly gunzTarPerm modified mode [ 'lib/router/index.js', 438, 420 ]
+118 silly gunzTarPerm extractEntry lib/router/route.js
+119 silly gunzTarPerm modified mode [ 'lib/router/route.js', 438, 420 ]
+120 silly gunzTarPerm extractEntry Makefile
+121 silly gunzTarPerm modified mode [ 'Makefile', 438, 420 ]
+122 silly gunzTarPerm extractEntry Readme.md
+123 silly gunzTarPerm modified mode [ 'Readme.md', 438, 420 ]
+124 silly lockFile 23bbff2e--npm-cache-express-3-4-4-package tar://C:\Users\Anass\AppData\Roaming\npm-cache\express\3.4.4\package
+125 silly lockFile 23bbff2e--npm-cache-express-3-4-4-package tar://C:\Users\Anass\AppData\Roaming\npm-cache\express\3.4.4\package
+126 silly lockFile 42a28443--cache-express-3-4-4-package-tgz tar://C:\Users\Anass\AppData\Roaming\npm-cache\express\3.4.4\package.tgz
+127 silly lockFile 42a28443--cache-express-3-4-4-package-tgz tar://C:\Users\Anass\AppData\Roaming\npm-cache\express\3.4.4\package.tgz
+128 verbose chmod C:\Users\Anass\AppData\Roaming\npm-cache\express\3.4.4\package.tgz 644
+129 silly chown skipping for windows C:\Users\Anass\AppData\Roaming\npm-cache\express\3.4.4\package.tgz
+130 silly lockFile 7d03e4c5-js-org-express-express-3-4-4-tgz https://registry.npmjs.org/express/-/express-3.4.4.tgz
+131 silly lockFile 7d03e4c5-js-org-express-express-3-4-4-tgz https://registry.npmjs.org/express/-/express-3.4.4.tgz
+132 silly lockFile edcc27a2-express-3-4-4 express@3.4.4
+133 silly lockFile edcc27a2-express-3-4-4 express@3.4.4
+134 silly lockFile 64a534c1-express express@
+135 silly lockFile 64a534c1-express express@
+136 silly resolved [ { name: 'express',
+136 silly resolved     description: 'Sinatra inspired web development framework',
+136 silly resolved     version: '3.4.4',
+136 silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+136 silly resolved     contributors: [ [Object], [Object], [Object], [Object] ],
+136 silly resolved     dependencies:
+136 silly resolved      { connect: '2.11.0',
+136 silly resolved        commander: '1.3.2',
+136 silly resolved        'range-parser': '0.0.4',
+136 silly resolved        mkdirp: '0.3.5',
+136 silly resolved        cookie: '0.1.0',
+136 silly resolved        'buffer-crc32': '0.2.1',
+136 silly resolved        fresh: '0.2.0',
+136 silly resolved        methods: '0.1.0',
+136 silly resolved        send: '0.1.4',
+136 silly resolved        'cookie-signature': '1.0.1',
+136 silly resolved        debug: '*' },
+136 silly resolved     devDependencies:
+136 silly resolved      { ejs: '*',
+136 silly resolved        mocha: '*',
+136 silly resolved        jade: '0.30.0',
+136 silly resolved        hjs: '*',
+136 silly resolved        stylus: '*',
+136 silly resolved        should: '2',
+136 silly resolved        'connect-redis': '*',
+136 silly resolved        marked: '*',
+136 silly resolved        supertest: '0.8.1 - 1' },
+136 silly resolved     keywords:
+136 silly resolved      [ 'express',
+136 silly resolved        'framework',
+136 silly resolved        'sinatra',
+136 silly resolved        'web',
+136 silly resolved        'rest',
+136 silly resolved        'restful',
+136 silly resolved        'router',
+136 silly resolved        'app',
+136 silly resolved        'api' ],
+136 silly resolved     repository: { type: 'git', url: 'git://github.com/visionmedia/express' },
+136 silly resolved     main: 'index',
+136 silly resolved     bin: { express: './bin/express' },
+136 silly resolved     scripts: { prepublish: 'npm prune', test: 'make test' },
+136 silly resolved     engines: { node: '*' },
+136 silly resolved     readme: '[![express logo](http://f.cl.ly/items/0V2S1n0K1i3y1c122g04/Screen%20Shot%202012-04-11%20at%209.59.42%20AM.png)](http://expressjs.com/)\n\n  Fast, unopinionated, minimalist web framework for [node](http://nodejs.org).\n\n  [![Build Status](https://secure.travis-ci.org/visionmedia/express.png)](http://travis-ci.org/visionmedia/express) [![Gittip](http://img.shields.io/gittip/visionmedia.png)](https://www.gittip.com/visionmedia/)\n\n```js\nvar express = require(\'express\');\nvar app = express();\n\napp.get(\'/\', function(req, res){\n  res.send(\'Hello World\');\n});\n\napp.listen(3000);\n```\n\n## Installation\n\n    $ npm install -g express\n\n## Quick Start\n\n The quickest way to get started with express is to utilize the executable `express(1)` to generate an application as shown below:\n\n Create the app:\n\n    $ npm install -g express\n    $ express /tmp/foo && cd /tmp/foo\n\n Install dependencies:\n\n    $ npm install\n\n Start the server:\n\n    $ node app\n\n## Features\n\n  * Built on [Connect](http://github.com/senchalabs/connect)\n  * Robust routing\n  * HTTP helpers (redirection, caching, etc)\n  * View system supporting 14+ template engines\n  * Content negotiation\n  * Focus on high performance\n  * Environment based configuration\n  * Executable for generating applications quickly\n  * High test coverage\n\n## Philosophy\n\n  The Express philosophy is to provide small, robust tooling for HTTP servers. Making\n  it a great solution for single page applications, web sites, hybrids, or public\n  HTTP APIs.\n\n  Built on Connect you can use _only_ what you need, and nothing more, applications\n  can be as big or as small as you like, even a single file. Express does\n  not force you to use any specific ORM or template engine. With support for over\n  14 template engines via [Consolidate.js](http://github.com/visionmedia/consolidate.js)\n  you can quickly craft your perfect framework.\n\n## More Information\n\n  * [Website and Documentation](http://expressjs.com/) stored at [visionmedia/expressjs.com](https://github.com/visionmedia/expressjs.com)\n  * Join #express on freenode\n  * [Google Group](http://groups.google.com/group/express-js) for discussion\n  * Follow [tjholowaychuk](http://twitter.com/tjholowaychuk) on twitter for updates\n  * Visit the [Wiki](http://github.com/visionmedia/express/wiki)\n  * [Русскоязычная документация](http://jsman.ru/express/)\n  * Run express examples [online](https://runnable.com/express)\n\n## Viewing Examples\n\nClone the Express repo, then install the dev dependencies to install all the example / test suite deps:\n\n    $ git clone git://github.com/visionmedia/express.git --depth 1\n    $ cd express\n    $ npm install\n\nthen run whichever tests you want:\n\n    $ node examples/content-negotiation\n\nYou can also view live examples here\n\n<a href="https://runnable.com/express" target="_blank"><img src="https://runnable.com/external/styles/assets/runnablebtn.png" style="width:67px;height:25px;"></a>\n\n## Running Tests\n\nTo run the test suite first invoke the following command within the repo, installing the development dependencies:\n\n    $ npm install\n\nthen run the tests:\n\n    $ make test\n\n## Contributors\n\n  https://github.com/visionmedia/express/graphs/contributors\n\n## License\n\n(The MIT License)\n\nCopyright (c) 2009-2012 TJ Holowaychuk &lt;tj@vision-media.ca&gt;\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\'Software\'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \'AS IS\', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n',
+136 silly resolved     readmeFilename: 'Readme.md',
+136 silly resolved     bugs: { url: 'https://github.com/visionmedia/express/issues' },
+136 silly resolved     _id: 'express@3.4.4',
+136 silly resolved     dist: { shasum: '3be0de48a5b34d7026943000ae32aafe18010514' },
+136 silly resolved     _from: 'express@',
+136 silly resolved     _resolved: 'https://registry.npmjs.org/express/-/express-3.4.4.tgz' } ]
+137 info install express@3.4.4 into C:\Users\Anass\Desktop\DOSI\TestNodeJS
+138 info installOne express@3.4.4
+139 info C:\Users\Anass\Desktop\DOSI\TestNodeJS\node_modules\express unbuild
+140 verbose tar unpack C:\Users\Anass\AppData\Roaming\npm-cache\express\3.4.4\package.tgz
+141 silly lockFile 7a232bfb--TestNodeJS-node-modules-express tar://C:\Users\Anass\Desktop\DOSI\TestNodeJS\node_modules\express
+142 verbose lock tar://C:\Users\Anass\Desktop\DOSI\TestNodeJS\node_modules\express C:\Users\Anass\AppData\Roaming\npm-cache\7a232bfb--TestNodeJS-node-modules-express.lock
+143 silly lockFile 42a28443--cache-express-3-4-4-package-tgz tar://C:\Users\Anass\AppData\Roaming\npm-cache\express\3.4.4\package.tgz
+144 verbose lock tar://C:\Users\Anass\AppData\Roaming\npm-cache\express\3.4.4\package.tgz C:\Users\Anass\AppData\Roaming\npm-cache\42a28443--cache-express-3-4-4-package-tgz.lock
+145 silly gunzTarPerm modes [ '755', '644' ]
+146 silly gunzTarPerm extractEntry package.json
+147 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+148 silly gunzTarPerm extractEntry .npmignore
+149 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+150 silly gunzTarPerm extractEntry LICENSE
+151 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+152 silly gunzTarPerm extractEntry index.js
+153 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+154 silly gunzTarPerm extractEntry .travis.yml
+155 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+156 silly gunzTarPerm extractEntry bin/express
+157 silly gunzTarPerm modified mode [ 'bin/express', 438, 420 ]
+158 silly gunzTarPerm extractEntry History.md
+159 silly gunzTarPerm modified mode [ 'History.md', 438, 420 ]
+160 silly gunzTarPerm extractEntry lib/application.js
+161 silly gunzTarPerm modified mode [ 'lib/application.js', 438, 420 ]
+162 silly gunzTarPerm extractEntry lib/express.js
+163 silly gunzTarPerm modified mode [ 'lib/express.js', 438, 420 ]
+164 silly gunzTarPerm extractEntry lib/middleware.js
+165 silly gunzTarPerm modified mode [ 'lib/middleware.js', 438, 420 ]
+166 silly gunzTarPerm extractEntry lib/request.js
+167 silly gunzTarPerm modified mode [ 'lib/request.js', 438, 420 ]
+168 silly gunzTarPerm extractEntry lib/response.js
+169 silly gunzTarPerm modified mode [ 'lib/response.js', 438, 420 ]
+170 silly gunzTarPerm extractEntry lib/utils.js
+171 silly gunzTarPerm modified mode [ 'lib/utils.js', 438, 420 ]
+172 silly gunzTarPerm extractEntry lib/view.js
+173 silly gunzTarPerm modified mode [ 'lib/view.js', 438, 420 ]
+174 silly gunzTarPerm extractEntry lib/router/index.js
+175 silly gunzTarPerm modified mode [ 'lib/router/index.js', 438, 420 ]
+176 silly gunzTarPerm extractEntry lib/router/route.js
+177 silly gunzTarPerm modified mode [ 'lib/router/route.js', 438, 420 ]
+178 silly gunzTarPerm extractEntry Makefile
+179 silly gunzTarPerm modified mode [ 'Makefile', 438, 420 ]
+180 silly gunzTarPerm extractEntry Readme.md
+181 silly gunzTarPerm modified mode [ 'Readme.md', 438, 420 ]
+182 silly lockFile 7a232bfb--TestNodeJS-node-modules-express tar://C:\Users\Anass\Desktop\DOSI\TestNodeJS\node_modules\express
+183 silly lockFile 7a232bfb--TestNodeJS-node-modules-express tar://C:\Users\Anass\Desktop\DOSI\TestNodeJS\node_modules\express
+184 silly lockFile 42a28443--cache-express-3-4-4-package-tgz tar://C:\Users\Anass\AppData\Roaming\npm-cache\express\3.4.4\package.tgz
+185 silly lockFile 42a28443--cache-express-3-4-4-package-tgz tar://C:\Users\Anass\AppData\Roaming\npm-cache\express\3.4.4\package.tgz
+186 info preinstall express@3.4.4
+187 verbose readDependencies using package.json deps
+188 verbose readDependencies using package.json deps
+189 verbose cache add [ 'connect@2.11.0', null ]
+190 verbose cache add name=undefined spec="connect@2.11.0" args=["connect@2.11.0",null]
+191 verbose parsed url { protocol: null,
+191 verbose parsed url   slashes: null,
+191 verbose parsed url   auth: null,
+191 verbose parsed url   host: null,
+191 verbose parsed url   port: null,
+191 verbose parsed url   hostname: null,
+191 verbose parsed url   hash: null,
+191 verbose parsed url   search: null,
+191 verbose parsed url   query: null,
+191 verbose parsed url   pathname: 'connect@2.11.0',
+191 verbose parsed url   path: 'connect@2.11.0',
+191 verbose parsed url   href: 'connect@2.11.0' }
+192 verbose cache add name="connect" spec="2.11.0" args=["connect","2.11.0"]
+193 verbose parsed url { protocol: null,
+193 verbose parsed url   slashes: null,
+193 verbose parsed url   auth: null,
+193 verbose parsed url   host: null,
+193 verbose parsed url   port: null,
+193 verbose parsed url   hostname: null,
+193 verbose parsed url   hash: null,
+193 verbose parsed url   search: null,
+193 verbose parsed url   query: null,
+193 verbose parsed url   pathname: '2.11.0',
+193 verbose parsed url   path: '2.11.0',
+193 verbose parsed url   href: '2.11.0' }
+194 verbose addNamed [ 'connect', '2.11.0' ]
+195 verbose addNamed [ '2.11.0', '2.11.0' ]
+196 silly lockFile 5ddacddd-connect-2-11-0 connect@2.11.0
+197 verbose lock connect@2.11.0 C:\Users\Anass\AppData\Roaming\npm-cache\5ddacddd-connect-2-11-0.lock
+198 verbose cache add [ 'commander@1.3.2', null ]
+199 verbose cache add name=undefined spec="commander@1.3.2" args=["commander@1.3.2",null]
+200 verbose parsed url { protocol: null,
+200 verbose parsed url   slashes: null,
+200 verbose parsed url   auth: null,
+200 verbose parsed url   host: null,
+200 verbose parsed url   port: null,
+200 verbose parsed url   hostname: null,
+200 verbose parsed url   hash: null,
+200 verbose parsed url   search: null,
+200 verbose parsed url   query: null,
+200 verbose parsed url   pathname: 'commander@1.3.2',
+200 verbose parsed url   path: 'commander@1.3.2',
+200 verbose parsed url   href: 'commander@1.3.2' }
+201 verbose cache add name="commander" spec="1.3.2" args=["commander","1.3.2"]
+202 verbose parsed url { protocol: null,
+202 verbose parsed url   slashes: null,
+202 verbose parsed url   auth: null,
+202 verbose parsed url   host: null,
+202 verbose parsed url   port: null,
+202 verbose parsed url   hostname: null,
+202 verbose parsed url   hash: null,
+202 verbose parsed url   search: null,
+202 verbose parsed url   query: null,
+202 verbose parsed url   pathname: '1.3.2',
+202 verbose parsed url   path: '1.3.2',
+202 verbose parsed url   href: '1.3.2' }
+203 verbose addNamed [ 'commander', '1.3.2' ]
+204 verbose addNamed [ '1.3.2', '1.3.2' ]
+205 silly lockFile 2016e061-commander-1-3-2 commander@1.3.2
+206 verbose lock commander@1.3.2 C:\Users\Anass\AppData\Roaming\npm-cache\2016e061-commander-1-3-2.lock
+207 verbose cache add [ 'range-parser@0.0.4', null ]
+208 verbose cache add name=undefined spec="range-parser@0.0.4" args=["range-parser@0.0.4",null]
+209 verbose parsed url { protocol: null,
+209 verbose parsed url   slashes: null,
+209 verbose parsed url   auth: null,
+209 verbose parsed url   host: null,
+209 verbose parsed url   port: null,
+209 verbose parsed url   hostname: null,
+209 verbose parsed url   hash: null,
+209 verbose parsed url   search: null,
+209 verbose parsed url   query: null,
+209 verbose parsed url   pathname: 'range-parser@0.0.4',
+209 verbose parsed url   path: 'range-parser@0.0.4',
+209 verbose parsed url   href: 'range-parser@0.0.4' }
+210 verbose cache add name="range-parser" spec="0.0.4" args=["range-parser","0.0.4"]
+211 verbose parsed url { protocol: null,
+211 verbose parsed url   slashes: null,
+211 verbose parsed url   auth: null,
+211 verbose parsed url   host: null,
+211 verbose parsed url   port: null,
+211 verbose parsed url   hostname: null,
+211 verbose parsed url   hash: null,
+211 verbose parsed url   search: null,
+211 verbose parsed url   query: null,
+211 verbose parsed url   pathname: '0.0.4',
+211 verbose parsed url   path: '0.0.4',
+211 verbose parsed url   href: '0.0.4' }
+212 verbose addNamed [ 'range-parser', '0.0.4' ]
+213 verbose addNamed [ '0.0.4', '0.0.4' ]
+214 silly lockFile 0760c556-range-parser-0-0-4 range-parser@0.0.4
+215 verbose lock range-parser@0.0.4 C:\Users\Anass\AppData\Roaming\npm-cache\0760c556-range-parser-0-0-4.lock
+216 verbose cache add [ 'mkdirp@0.3.5', null ]
+217 verbose cache add name=undefined spec="mkdirp@0.3.5" args=["mkdirp@0.3.5",null]
+218 verbose parsed url { protocol: null,
+218 verbose parsed url   slashes: null,
+218 verbose parsed url   auth: null,
+218 verbose parsed url   host: null,
+218 verbose parsed url   port: null,
+218 verbose parsed url   hostname: null,
+218 verbose parsed url   hash: null,
+218 verbose parsed url   search: null,
+218 verbose parsed url   query: null,
+218 verbose parsed url   pathname: 'mkdirp@0.3.5',
+218 verbose parsed url   path: 'mkdirp@0.3.5',
+218 verbose parsed url   href: 'mkdirp@0.3.5' }
+219 verbose cache add name="mkdirp" spec="0.3.5" args=["mkdirp","0.3.5"]
+220 verbose parsed url { protocol: null,
+220 verbose parsed url   slashes: null,
+220 verbose parsed url   auth: null,
+220 verbose parsed url   host: null,
+220 verbose parsed url   port: null,
+220 verbose parsed url   hostname: null,
+220 verbose parsed url   hash: null,
+220 verbose parsed url   search: null,
+220 verbose parsed url   query: null,
+220 verbose parsed url   pathname: '0.3.5',
+220 verbose parsed url   path: '0.3.5',
+220 verbose parsed url   href: '0.3.5' }
+221 verbose addNamed [ 'mkdirp', '0.3.5' ]
+222 verbose addNamed [ '0.3.5', '0.3.5' ]
+223 silly lockFile 67d2df2a-mkdirp-0-3-5 mkdirp@0.3.5
+224 verbose lock mkdirp@0.3.5 C:\Users\Anass\AppData\Roaming\npm-cache\67d2df2a-mkdirp-0-3-5.lock
+225 verbose cache add [ 'cookie@0.1.0', null ]
+226 verbose cache add name=undefined spec="cookie@0.1.0" args=["cookie@0.1.0",null]
+227 verbose parsed url { protocol: null,
+227 verbose parsed url   slashes: null,
+227 verbose parsed url   auth: null,
+227 verbose parsed url   host: null,
+227 verbose parsed url   port: null,
+227 verbose parsed url   hostname: null,
+227 verbose parsed url   hash: null,
+227 verbose parsed url   search: null,
+227 verbose parsed url   query: null,
+227 verbose parsed url   pathname: 'cookie@0.1.0',
+227 verbose parsed url   path: 'cookie@0.1.0',
+227 verbose parsed url   href: 'cookie@0.1.0' }
+228 verbose cache add name="cookie" spec="0.1.0" args=["cookie","0.1.0"]
+229 verbose parsed url { protocol: null,
+229 verbose parsed url   slashes: null,
+229 verbose parsed url   auth: null,
+229 verbose parsed url   host: null,
+229 verbose parsed url   port: null,
+229 verbose parsed url   hostname: null,
+229 verbose parsed url   hash: null,
+229 verbose parsed url   search: null,
+229 verbose parsed url   query: null,
+229 verbose parsed url   pathname: '0.1.0',
+229 verbose parsed url   path: '0.1.0',
+229 verbose parsed url   href: '0.1.0' }
+230 verbose addNamed [ 'cookie', '0.1.0' ]
+231 verbose addNamed [ '0.1.0', '0.1.0' ]
+232 silly lockFile b55e145e-cookie-0-1-0 cookie@0.1.0
+233 verbose lock cookie@0.1.0 C:\Users\Anass\AppData\Roaming\npm-cache\b55e145e-cookie-0-1-0.lock
+234 verbose cache add [ 'buffer-crc32@0.2.1', null ]
+235 verbose cache add name=undefined spec="buffer-crc32@0.2.1" args=["buffer-crc32@0.2.1",null]
+236 verbose parsed url { protocol: null,
+236 verbose parsed url   slashes: null,
+236 verbose parsed url   auth: null,
+236 verbose parsed url   host: null,
+236 verbose parsed url   port: null,
+236 verbose parsed url   hostname: null,
+236 verbose parsed url   hash: null,
+236 verbose parsed url   search: null,
+236 verbose parsed url   query: null,
+236 verbose parsed url   pathname: 'buffer-crc32@0.2.1',
+236 verbose parsed url   path: 'buffer-crc32@0.2.1',
+236 verbose parsed url   href: 'buffer-crc32@0.2.1' }
+237 verbose cache add name="buffer-crc32" spec="0.2.1" args=["buffer-crc32","0.2.1"]
+238 verbose parsed url { protocol: null,
+238 verbose parsed url   slashes: null,
+238 verbose parsed url   auth: null,
+238 verbose parsed url   host: null,
+238 verbose parsed url   port: null,
+238 verbose parsed url   hostname: null,
+238 verbose parsed url   hash: null,
+238 verbose parsed url   search: null,
+238 verbose parsed url   query: null,
+238 verbose parsed url   pathname: '0.2.1',
+238 verbose parsed url   path: '0.2.1',
+238 verbose parsed url   href: '0.2.1' }
+239 verbose addNamed [ 'buffer-crc32', '0.2.1' ]
+240 verbose addNamed [ '0.2.1', '0.2.1' ]
+241 silly lockFile 057d0d26-buffer-crc32-0-2-1 buffer-crc32@0.2.1
+242 verbose lock buffer-crc32@0.2.1 C:\Users\Anass\AppData\Roaming\npm-cache\057d0d26-buffer-crc32-0-2-1.lock
+243 verbose cache add [ 'fresh@0.2.0', null ]
+244 verbose cache add name=undefined spec="fresh@0.2.0" args=["fresh@0.2.0",null]
+245 verbose parsed url { protocol: null,
+245 verbose parsed url   slashes: null,
+245 verbose parsed url   auth: null,
+245 verbose parsed url   host: null,
+245 verbose parsed url   port: null,
+245 verbose parsed url   hostname: null,
+245 verbose parsed url   hash: null,
+245 verbose parsed url   search: null,
+245 verbose parsed url   query: null,
+245 verbose parsed url   pathname: 'fresh@0.2.0',
+245 verbose parsed url   path: 'fresh@0.2.0',
+245 verbose parsed url   href: 'fresh@0.2.0' }
+246 verbose cache add name="fresh" spec="0.2.0" args=["fresh","0.2.0"]
+247 verbose parsed url { protocol: null,
+247 verbose parsed url   slashes: null,
+247 verbose parsed url   auth: null,
+247 verbose parsed url   host: null,
+247 verbose parsed url   port: null,
+247 verbose parsed url   hostname: null,
+247 verbose parsed url   hash: null,
+247 verbose parsed url   search: null,
+247 verbose parsed url   query: null,
+247 verbose parsed url   pathname: '0.2.0',
+247 verbose parsed url   path: '0.2.0',
+247 verbose parsed url   href: '0.2.0' }
+248 verbose addNamed [ 'fresh', '0.2.0' ]
+249 verbose addNamed [ '0.2.0', '0.2.0' ]
+250 silly lockFile 1a4cf0d3-fresh-0-2-0 fresh@0.2.0
+251 verbose lock fresh@0.2.0 C:\Users\Anass\AppData\Roaming\npm-cache\1a4cf0d3-fresh-0-2-0.lock
+252 verbose cache add [ 'methods@0.1.0', null ]
+253 verbose cache add name=undefined spec="methods@0.1.0" args=["methods@0.1.0",null]
+254 verbose parsed url { protocol: null,
+254 verbose parsed url   slashes: null,
+254 verbose parsed url   auth: null,
+254 verbose parsed url   host: null,
+254 verbose parsed url   port: null,
+254 verbose parsed url   hostname: null,
+254 verbose parsed url   hash: null,
+254 verbose parsed url   search: null,
+254 verbose parsed url   query: null,
+254 verbose parsed url   pathname: 'methods@0.1.0',
+254 verbose parsed url   path: 'methods@0.1.0',
+254 verbose parsed url   href: 'methods@0.1.0' }
+255 verbose cache add name="methods" spec="0.1.0" args=["methods","0.1.0"]
+256 verbose parsed url { protocol: null,
+256 verbose parsed url   slashes: null,
+256 verbose parsed url   auth: null,
+256 verbose parsed url   host: null,
+256 verbose parsed url   port: null,
+256 verbose parsed url   hostname: null,
+256 verbose parsed url   hash: null,
+256 verbose parsed url   search: null,
+256 verbose parsed url   query: null,
+256 verbose parsed url   pathname: '0.1.0',
+256 verbose parsed url   path: '0.1.0',
+256 verbose parsed url   href: '0.1.0' }
+257 verbose addNamed [ 'methods', '0.1.0' ]
+258 verbose addNamed [ '0.1.0', '0.1.0' ]
+259 silly lockFile 81f018b6-methods-0-1-0 methods@0.1.0
+260 verbose lock methods@0.1.0 C:\Users\Anass\AppData\Roaming\npm-cache\81f018b6-methods-0-1-0.lock
+261 verbose cache add [ 'send@0.1.4', null ]
+262 verbose cache add name=undefined spec="send@0.1.4" args=["send@0.1.4",null]
+263 verbose parsed url { protocol: null,
+263 verbose parsed url   slashes: null,
+263 verbose parsed url   auth: null,
+263 verbose parsed url   host: null,
+263 verbose parsed url   port: null,
+263 verbose parsed url   hostname: null,
+263 verbose parsed url   hash: null,
+263 verbose parsed url   search: null,
+263 verbose parsed url   query: null,
+263 verbose parsed url   pathname: 'send@0.1.4',
+263 verbose parsed url   path: 'send@0.1.4',
+263 verbose parsed url   href: 'send@0.1.4' }
+264 verbose cache add name="send" spec="0.1.4" args=["send","0.1.4"]
+265 verbose parsed url { protocol: null,
+265 verbose parsed url   slashes: null,
+265 verbose parsed url   auth: null,
+265 verbose parsed url   host: null,
+265 verbose parsed url   port: null,
+265 verbose parsed url   hostname: null,
+265 verbose parsed url   hash: null,
+265 verbose parsed url   search: null,
+265 verbose parsed url   query: null,
+265 verbose parsed url   pathname: '0.1.4',
+265 verbose parsed url   path: '0.1.4',
+265 verbose parsed url   href: '0.1.4' }
+266 verbose addNamed [ 'send', '0.1.4' ]
+267 verbose addNamed [ '0.1.4', '0.1.4' ]
+268 silly lockFile 555fd08a-send-0-1-4 send@0.1.4
+269 verbose lock send@0.1.4 C:\Users\Anass\AppData\Roaming\npm-cache\555fd08a-send-0-1-4.lock
+270 verbose cache add [ 'cookie-signature@1.0.1', null ]
+271 verbose cache add name=undefined spec="cookie-signature@1.0.1" args=["cookie-signature@1.0.1",null]
+272 verbose parsed url { protocol: null,
+272 verbose parsed url   slashes: null,
+272 verbose parsed url   auth: null,
+272 verbose parsed url   host: null,
+272 verbose parsed url   port: null,
+272 verbose parsed url   hostname: null,
+272 verbose parsed url   hash: null,
+272 verbose parsed url   search: null,
+272 verbose parsed url   query: null,
+272 verbose parsed url   pathname: 'cookie-signature@1.0.1',
+272 verbose parsed url   path: 'cookie-signature@1.0.1',
+272 verbose parsed url   href: 'cookie-signature@1.0.1' }
+273 verbose cache add name="cookie-signature" spec="1.0.1" args=["cookie-signature","1.0.1"]
+274 verbose parsed url { protocol: null,
+274 verbose parsed url   slashes: null,
+274 verbose parsed url   auth: null,
+274 verbose parsed url   host: null,
+274 verbose parsed url   port: null,
+274 verbose parsed url   hostname: null,
+274 verbose parsed url   hash: null,
+274 verbose parsed url   search: null,
+274 verbose parsed url   query: null,
+274 verbose parsed url   pathname: '1.0.1',
+274 verbose parsed url   path: '1.0.1',
+274 verbose parsed url   href: '1.0.1' }
+275 verbose addNamed [ 'cookie-signature', '1.0.1' ]
+276 verbose addNamed [ '1.0.1', '1.0.1' ]
+277 silly lockFile d4a1eba1-cookie-signature-1-0-1 cookie-signature@1.0.1
+278 verbose lock cookie-signature@1.0.1 C:\Users\Anass\AppData\Roaming\npm-cache\d4a1eba1-cookie-signature-1-0-1.lock
+279 verbose cache add [ 'debug@*', null ]
+280 verbose cache add name=undefined spec="debug@*" args=["debug@*",null]
+281 verbose parsed url { protocol: null,
+281 verbose parsed url   slashes: null,
+281 verbose parsed url   auth: null,
+281 verbose parsed url   host: null,
+281 verbose parsed url   port: null,
+281 verbose parsed url   hostname: null,
+281 verbose parsed url   hash: null,
+281 verbose parsed url   search: null,
+281 verbose parsed url   query: null,
+281 verbose parsed url   pathname: 'debug@*',
+281 verbose parsed url   path: 'debug@*',
+281 verbose parsed url   href: 'debug@*' }
+282 verbose cache add name="debug" spec="*" args=["debug","*"]
+283 verbose parsed url { protocol: null,
+283 verbose parsed url   slashes: null,
+283 verbose parsed url   auth: null,
+283 verbose parsed url   host: null,
+283 verbose parsed url   port: null,
+283 verbose parsed url   hostname: null,
+283 verbose parsed url   hash: null,
+283 verbose parsed url   search: null,
+283 verbose parsed url   query: null,
+283 verbose parsed url   pathname: '*',
+283 verbose parsed url   path: '*',
+283 verbose parsed url   href: '*' }
+284 verbose addNamed [ 'debug', '*' ]
+285 verbose addNamed [ null, '*' ]
+286 silly lockFile 3ac45eff-debug debug@*
+287 verbose lock debug@* C:\Users\Anass\AppData\Roaming\npm-cache\3ac45eff-debug.lock
+288 verbose url raw commander/1.3.2
+289 verbose url resolving [ 'https://registry.npmjs.org/', './commander/1.3.2' ]
+290 verbose url resolved https://registry.npmjs.org/commander/1.3.2
+291 info trying registry request attempt 1 at 18:10:03
+292 http GET https://registry.npmjs.org/commander/1.3.2
+293 verbose url raw fresh/0.2.0
+294 verbose url resolving [ 'https://registry.npmjs.org/', './fresh/0.2.0' ]
+295 verbose url resolved https://registry.npmjs.org/fresh/0.2.0
+296 info trying registry request attempt 1 at 18:10:03
+297 verbose etag "6CDQ014VE8MJLSGJOYMKCVKVG"
+298 http GET https://registry.npmjs.org/fresh/0.2.0
+299 verbose url raw methods/0.1.0
+300 verbose url resolving [ 'https://registry.npmjs.org/', './methods/0.1.0' ]
+301 verbose url resolved https://registry.npmjs.org/methods/0.1.0
+302 info trying registry request attempt 1 at 18:10:03
+303 http GET https://registry.npmjs.org/methods/0.1.0
+304 verbose url raw connect/2.11.0
+305 verbose url resolving [ 'https://registry.npmjs.org/', './connect/2.11.0' ]
+306 verbose url resolved https://registry.npmjs.org/connect/2.11.0
+307 info trying registry request attempt 1 at 18:10:03
+308 http GET https://registry.npmjs.org/connect/2.11.0
+309 silly addNameRange { name: 'debug', range: '*', hasData: false }
+310 verbose url raw mkdirp/0.3.5
+311 verbose url resolving [ 'https://registry.npmjs.org/', './mkdirp/0.3.5' ]
+312 verbose url resolved https://registry.npmjs.org/mkdirp/0.3.5
+313 info trying registry request attempt 1 at 18:10:03
+314 verbose etag "6A3HQJJS800XM6HY1G91KHAHX"
+315 http GET https://registry.npmjs.org/mkdirp/0.3.5
+316 verbose url raw send/0.1.4
+317 verbose url resolving [ 'https://registry.npmjs.org/', './send/0.1.4' ]
+318 verbose url resolved https://registry.npmjs.org/send/0.1.4
+319 info trying registry request attempt 1 at 18:10:03
+320 verbose etag "44MEX16XITH6HKKBT0BOK31OO"
+321 http GET https://registry.npmjs.org/send/0.1.4
+322 verbose url raw buffer-crc32/0.2.1
+323 verbose url resolving [ 'https://registry.npmjs.org/', './buffer-crc32/0.2.1' ]
+324 verbose url resolved https://registry.npmjs.org/buffer-crc32/0.2.1
+325 info trying registry request attempt 1 at 18:10:03
+326 verbose etag "4JLO8SIQOKXMA94PVFN5E59WV"
+327 http GET https://registry.npmjs.org/buffer-crc32/0.2.1
+328 verbose url raw cookie-signature/1.0.1
+329 verbose url resolving [ 'https://registry.npmjs.org/', './cookie-signature/1.0.1' ]
+330 verbose url resolved https://registry.npmjs.org/cookie-signature/1.0.1
+331 info trying registry request attempt 1 at 18:10:03
+332 verbose etag "332BQXGWC1DJFGGZJ0ETUQXA6"
+333 http GET https://registry.npmjs.org/cookie-signature/1.0.1
+334 verbose url raw cookie/0.1.0
+335 verbose url resolving [ 'https://registry.npmjs.org/', './cookie/0.1.0' ]
+336 verbose url resolved https://registry.npmjs.org/cookie/0.1.0
+337 info trying registry request attempt 1 at 18:10:03
+338 verbose etag "F1R4EMW6NEBFUL3OK9Q9DKBJF"
+339 http GET https://registry.npmjs.org/cookie/0.1.0
+340 verbose url raw range-parser/0.0.4
+341 verbose url resolving [ 'https://registry.npmjs.org/', './range-parser/0.0.4' ]
+342 verbose url resolved https://registry.npmjs.org/range-parser/0.0.4
+343 info trying registry request attempt 1 at 18:10:03
+344 verbose etag "27HRUXP1C4FYWUHH9AKW9J76C"
+345 http GET https://registry.npmjs.org/range-parser/0.0.4
+346 verbose url raw debug
+347 verbose url resolving [ 'https://registry.npmjs.org/', './debug' ]
+348 verbose url resolved https://registry.npmjs.org/debug
+349 info trying registry request attempt 1 at 18:10:03
+350 verbose etag "4WJS11NM29KGTOE5SMRSNAKOZ"
+351 http GET https://registry.npmjs.org/debug
+352 info retry will retry, error on last attempt: Error: socket hang up
+353 info retry will retry, error on last attempt: Error: socket hang up
+354 http 304 https://registry.npmjs.org/send/0.1.4
+355 silly registry.get cb [ 304,
+355 silly registry.get   { server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+355 silly registry.get     etag: '"44MEX16XITH6HKKBT0BOK31OO"',
+355 silly registry.get     date: 'Mon, 04 Nov 2013 19:10:21 GMT',
+355 silly registry.get     'content-length': '0' } ]
+356 verbose etag send/0.1.4 from cache
+357 silly lockFile 555fd08a-send-0-1-4 send@0.1.4
+358 silly lockFile 555fd08a-send-0-1-4 send@0.1.4
+359 info trying registry request attempt 2 at 18:10:21
+360 http GET https://registry.npmjs.org/commander/1.3.2
+361 info trying registry request attempt 2 at 18:10:21
+362 http GET https://registry.npmjs.org/connect/2.11.0
+363 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+364 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+365 http 200 https://registry.npmjs.org/methods/0.1.0
+366 silly registry.get cb [ 200,
+366 silly registry.get   { vary: 'Accept',
+366 silly registry.get     server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+366 silly registry.get     etag: '"6MMA3D5OLHFQORNDJ28A0NTWI"',
+366 silly registry.get     date: 'Mon, 04 Nov 2013 19:10:26 GMT',
+366 silly registry.get     'content-type': 'application/json',
+366 silly registry.get     'content-length': '837' } ]
+367 silly lockFile 15b64a60-js-org-methods-methods-0-1-0-tgz https://registry.npmjs.org/methods/-/methods-0.1.0.tgz
+368 verbose lock https://registry.npmjs.org/methods/-/methods-0.1.0.tgz C:\Users\Anass\AppData\Roaming\npm-cache\15b64a60-js-org-methods-methods-0-1-0-tgz.lock
+369 verbose addRemoteTarball [ 'https://registry.npmjs.org/methods/-/methods-0.1.0.tgz',
+369 verbose addRemoteTarball   '335d429eefd21b7bacf2e9c922a8d2bd14a30e4f' ]
+370 info retry fetch attempt 1 at 18:10:26
+371 verbose fetch to= C:\Users\Anass\AppData\Local\Temp\npm-4232-R-_EpUnE\1383592226061-0.271629786118865\tmp.tgz
+372 http GET https://registry.npmjs.org/methods/-/methods-0.1.0.tgz
+373 http 304 https://registry.npmjs.org/buffer-crc32/0.2.1
+374 silly registry.get cb [ 304,
+374 silly registry.get   { server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+374 silly registry.get     etag: '"4JLO8SIQOKXMA94PVFN5E59WV"',
+374 silly registry.get     date: 'Mon, 04 Nov 2013 19:10:28 GMT',
+374 silly registry.get     'content-length': '0' } ]
+375 verbose etag buffer-crc32/0.2.1 from cache
+376 silly lockFile 057d0d26-buffer-crc32-0-2-1 buffer-crc32@0.2.1
+377 silly lockFile 057d0d26-buffer-crc32-0-2-1 buffer-crc32@0.2.1
+378 info trying registry request attempt 2 at 18:10:34
+379 verbose etag "6CDQ014VE8MJLSGJOYMKCVKVG"
+380 http GET https://registry.npmjs.org/fresh/0.2.0
+381 info trying registry request attempt 2 at 18:10:34
+382 verbose etag "6A3HQJJS800XM6HY1G91KHAHX"
+383 http GET https://registry.npmjs.org/mkdirp/0.3.5
+384 info retry will retry, error on last attempt: Error: socket hang up
+385 info retry will retry, error on last attempt: Error: socket hang up
+386 info retry will retry, error on last attempt: Error: socket hang up
+387 error fetch failed https://registry.npmjs.org/methods/-/methods-0.1.0.tgz
+388 info retry will retry, error on last attempt: Error: socket hang up
+389 info retry will retry, error on last attempt: Error: socket hang up
+390 info retry will retry, error on last attempt: Error: socket hang up
+391 http 304 https://registry.npmjs.org/fresh/0.2.0
+392 silly registry.get cb [ 304,
+392 silly registry.get   { server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+392 silly registry.get     etag: '"6CDQ014VE8MJLSGJOYMKCVKVG"',
+392 silly registry.get     date: 'Mon, 04 Nov 2013 19:10:45 GMT',
+392 silly registry.get     'content-length': '0' } ]
+393 verbose etag fresh/0.2.0 from cache
+394 silly lockFile 1a4cf0d3-fresh-0-2-0 fresh@0.2.0
+395 silly lockFile 1a4cf0d3-fresh-0-2-0 fresh@0.2.0
+396 http 200 https://registry.npmjs.org/connect/2.11.0
+397 silly registry.get cb [ 200,
+397 silly registry.get   { vary: 'Accept',
+397 silly registry.get     server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+397 silly registry.get     etag: '"6VJVVVC1M4YCIYHHO77GGEVZW"',
+397 silly registry.get     date: 'Mon, 04 Nov 2013 19:10:52 GMT',
+397 silly registry.get     'content-type': 'application/json',
+397 silly registry.get     'content-length': '4578' } ]
+398 silly lockFile a757645a-s-org-connect-connect-2-11-0-tgz https://registry.npmjs.org/connect/-/connect-2.11.0.tgz
+399 verbose lock https://registry.npmjs.org/connect/-/connect-2.11.0.tgz C:\Users\Anass\AppData\Roaming\npm-cache\a757645a-s-org-connect-connect-2-11-0-tgz.lock
+400 verbose addRemoteTarball [ 'https://registry.npmjs.org/connect/-/connect-2.11.0.tgz',
+400 verbose addRemoteTarball   '9991ce09ff9b85d9ead27f9d41d0b2a2df2f9284' ]
+401 info retry fetch attempt 1 at 18:10:52
+402 verbose fetch to= C:\Users\Anass\AppData\Local\Temp\npm-4232-R-_EpUnE\1383592252738-0.8952441208530217\tmp.tgz
+403 http GET https://registry.npmjs.org/connect/-/connect-2.11.0.tgz
+404 info trying registry request attempt 2 at 18:10:53
+405 verbose etag "332BQXGWC1DJFGGZJ0ETUQXA6"
+406 http GET https://registry.npmjs.org/cookie-signature/1.0.1
+407 info trying registry request attempt 2 at 18:10:53
+408 verbose etag "4WJS11NM29KGTOE5SMRSNAKOZ"
+409 http GET https://registry.npmjs.org/debug
+410 info retry fetch attempt 2 at 18:10:53
+411 verbose fetch to= C:\Users\Anass\AppData\Local\Temp\npm-4232-R-_EpUnE\1383592226061-0.271629786118865\tmp.tgz
+412 info trying registry request attempt 2 at 18:10:53
+413 verbose etag "F1R4EMW6NEBFUL3OK9Q9DKBJF"
+414 http GET https://registry.npmjs.org/cookie/0.1.0
+415 info trying registry request attempt 2 at 18:10:53
+416 verbose etag "27HRUXP1C4FYWUHH9AKW9J76C"
+417 http GET https://registry.npmjs.org/range-parser/0.0.4
+418 http GET https://registry.npmjs.org/methods/-/methods-0.1.0.tgz
+419 http 304 https://registry.npmjs.org/mkdirp/0.3.5
+420 silly registry.get cb [ 304,
+420 silly registry.get   { server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+420 silly registry.get     etag: '"6A3HQJJS800XM6HY1G91KHAHX"',
+420 silly registry.get     date: 'Mon, 04 Nov 2013 19:10:54 GMT',
+420 silly registry.get     'content-length': '0' } ]
+421 verbose etag mkdirp/0.3.5 from cache
+422 silly lockFile 67d2df2a-mkdirp-0-3-5 mkdirp@0.3.5
+423 silly lockFile 67d2df2a-mkdirp-0-3-5 mkdirp@0.3.5
+424 http 200 https://registry.npmjs.org/connect/-/connect-2.11.0.tgz
+425 http 200 https://registry.npmjs.org/methods/-/methods-0.1.0.tgz
+426 verbose tar unpack C:\Users\Anass\AppData\Local\Temp\npm-4232-R-_EpUnE\1383592226061-0.271629786118865\tmp.tgz
+427 silly lockFile 41c44402-226061-0-271629786118865-package tar://C:\Users\Anass\AppData\Local\Temp\npm-4232-R-_EpUnE\1383592226061-0.271629786118865\package
+428 verbose lock tar://C:\Users\Anass\AppData\Local\Temp\npm-4232-R-_EpUnE\1383592226061-0.271629786118865\package C:\Users\Anass\AppData\Roaming\npm-cache\41c44402-226061-0-271629786118865-package.lock
+429 silly lockFile cd711591-226061-0-271629786118865-tmp-tgz tar://C:\Users\Anass\AppData\Local\Temp\npm-4232-R-_EpUnE\1383592226061-0.271629786118865\tmp.tgz
+430 verbose lock tar://C:\Users\Anass\AppData\Local\Temp\npm-4232-R-_EpUnE\1383592226061-0.271629786118865\tmp.tgz C:\Users\Anass\AppData\Roaming\npm-cache\cd711591-226061-0-271629786118865-tmp-tgz.lock
+431 silly gunzTarPerm modes [ '755', '644' ]
+432 silly gunzTarPerm extractEntry package.json
+433 silly gunzTarPerm extractEntry index.js
+434 silly gunzTarPerm extractEntry History.md
+435 silly gunzTarPerm extractEntry Readme.md
+436 silly lockFile 41c44402-226061-0-271629786118865-package tar://C:\Users\Anass\AppData\Local\Temp\npm-4232-R-_EpUnE\1383592226061-0.271629786118865\package
+437 silly lockFile 41c44402-226061-0-271629786118865-package tar://C:\Users\Anass\AppData\Local\Temp\npm-4232-R-_EpUnE\1383592226061-0.271629786118865\package
+438 silly lockFile cd711591-226061-0-271629786118865-tmp-tgz tar://C:\Users\Anass\AppData\Local\Temp\npm-4232-R-_EpUnE\1383592226061-0.271629786118865\tmp.tgz
+439 silly lockFile cd711591-226061-0-271629786118865-tmp-tgz tar://C:\Users\Anass\AppData\Local\Temp\npm-4232-R-_EpUnE\1383592226061-0.271629786118865\tmp.tgz
+440 verbose tar pack [ 'C:\\Users\\Anass\\AppData\\Roaming\\npm-cache\\methods\\0.1.0\\package.tgz',
+440 verbose tar pack   'C:\\Users\\Anass\\AppData\\Local\\Temp\\npm-4232-R-_EpUnE\\1383592226061-0.271629786118865\\package' ]
+441 verbose tarball C:\Users\Anass\AppData\Roaming\npm-cache\methods\0.1.0\package.tgz
+442 verbose folder C:\Users\Anass\AppData\Local\Temp\npm-4232-R-_EpUnE\1383592226061-0.271629786118865\package
+443 silly lockFile 41c44402-226061-0-271629786118865-package tar://C:\Users\Anass\AppData\Local\Temp\npm-4232-R-_EpUnE\1383592226061-0.271629786118865\package
+444 verbose lock tar://C:\Users\Anass\AppData\Local\Temp\npm-4232-R-_EpUnE\1383592226061-0.271629786118865\package C:\Users\Anass\AppData\Roaming\npm-cache\41c44402-226061-0-271629786118865-package.lock
+445 silly lockFile 0ef21bdf--cache-methods-0-1-0-package-tgz tar://C:\Users\Anass\AppData\Roaming\npm-cache\methods\0.1.0\package.tgz
+446 verbose lock tar://C:\Users\Anass\AppData\Roaming\npm-cache\methods\0.1.0\package.tgz C:\Users\Anass\AppData\Roaming\npm-cache\0ef21bdf--cache-methods-0-1-0-package-tgz.lock
+447 silly lockFile 41c44402-226061-0-271629786118865-package tar://C:\Users\Anass\AppData\Local\Temp\npm-4232-R-_EpUnE\1383592226061-0.271629786118865\package
+448 silly lockFile 41c44402-226061-0-271629786118865-package tar://C:\Users\Anass\AppData\Local\Temp\npm-4232-R-_EpUnE\1383592226061-0.271629786118865\package
+449 silly lockFile 0ef21bdf--cache-methods-0-1-0-package-tgz tar://C:\Users\Anass\AppData\Roaming\npm-cache\methods\0.1.0\package.tgz
+450 silly lockFile 0ef21bdf--cache-methods-0-1-0-package-tgz tar://C:\Users\Anass\AppData\Roaming\npm-cache\methods\0.1.0\package.tgz
+451 silly lockFile 195a9be6--npm-cache-methods-0-1-0-package C:\Users\Anass\AppData\Roaming\npm-cache\methods\0.1.0\package
+452 verbose lock C:\Users\Anass\AppData\Roaming\npm-cache\methods\0.1.0\package C:\Users\Anass\AppData\Roaming\npm-cache\195a9be6--npm-cache-methods-0-1-0-package.lock
+453 silly lockFile 195a9be6--npm-cache-methods-0-1-0-package C:\Users\Anass\AppData\Roaming\npm-cache\methods\0.1.0\package
+454 silly lockFile 195a9be6--npm-cache-methods-0-1-0-package C:\Users\Anass\AppData\Roaming\npm-cache\methods\0.1.0\package
+455 verbose tar unpack C:\Users\Anass\AppData\Roaming\npm-cache\methods\0.1.0\package.tgz
+456 silly lockFile defff63c--npm-cache-methods-0-1-0-package tar://C:\Users\Anass\AppData\Roaming\npm-cache\methods\0.1.0\package
+457 verbose lock tar://C:\Users\Anass\AppData\Roaming\npm-cache\methods\0.1.0\package C:\Users\Anass\AppData\Roaming\npm-cache\defff63c--npm-cache-methods-0-1-0-package.lock
+458 silly lockFile 0ef21bdf--cache-methods-0-1-0-package-tgz tar://C:\Users\Anass\AppData\Roaming\npm-cache\methods\0.1.0\package.tgz
+459 verbose lock tar://C:\Users\Anass\AppData\Roaming\npm-cache\methods\0.1.0\package.tgz C:\Users\Anass\AppData\Roaming\npm-cache\0ef21bdf--cache-methods-0-1-0-package-tgz.lock
+460 silly gunzTarPerm modes [ '755', '644' ]
+461 silly gunzTarPerm extractEntry package.json
+462 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+463 silly gunzTarPerm extractEntry index.js
+464 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+465 silly gunzTarPerm extractEntry History.md
+466 silly gunzTarPerm modified mode [ 'History.md', 438, 420 ]
+467 silly gunzTarPerm extractEntry Readme.md
+468 silly gunzTarPerm modified mode [ 'Readme.md', 438, 420 ]
+469 silly lockFile defff63c--npm-cache-methods-0-1-0-package tar://C:\Users\Anass\AppData\Roaming\npm-cache\methods\0.1.0\package
+470 silly lockFile defff63c--npm-cache-methods-0-1-0-package tar://C:\Users\Anass\AppData\Roaming\npm-cache\methods\0.1.0\package
+471 silly lockFile 0ef21bdf--cache-methods-0-1-0-package-tgz tar://C:\Users\Anass\AppData\Roaming\npm-cache\methods\0.1.0\package.tgz
+472 silly lockFile 0ef21bdf--cache-methods-0-1-0-package-tgz tar://C:\Users\Anass\AppData\Roaming\npm-cache\methods\0.1.0\package.tgz
+473 verbose chmod C:\Users\Anass\AppData\Roaming\npm-cache\methods\0.1.0\package.tgz 644
+474 silly chown skipping for windows C:\Users\Anass\AppData\Roaming\npm-cache\methods\0.1.0\package.tgz
+475 silly lockFile 15b64a60-js-org-methods-methods-0-1-0-tgz https://registry.npmjs.org/methods/-/methods-0.1.0.tgz
+476 silly lockFile 15b64a60-js-org-methods-methods-0-1-0-tgz https://registry.npmjs.org/methods/-/methods-0.1.0.tgz
+477 silly lockFile 81f018b6-methods-0-1-0 methods@0.1.0
+478 silly lockFile 81f018b6-methods-0-1-0 methods@0.1.0
+479 verbose tar unpack C:\Users\Anass\AppData\Local\Temp\npm-4232-R-_EpUnE\1383592252738-0.8952441208530217\tmp.tgz
+480 silly lockFile bb8d4784-52738-0-8952441208530217-package tar://C:\Users\Anass\AppData\Local\Temp\npm-4232-R-_EpUnE\1383592252738-0.8952441208530217\package
+481 verbose lock tar://C:\Users\Anass\AppData\Local\Temp\npm-4232-R-_EpUnE\1383592252738-0.8952441208530217\package C:\Users\Anass\AppData\Roaming\npm-cache\bb8d4784-52738-0-8952441208530217-package.lock
+482 silly lockFile 19cdc10f-52738-0-8952441208530217-tmp-tgz tar://C:\Users\Anass\AppData\Local\Temp\npm-4232-R-_EpUnE\1383592252738-0.8952441208530217\tmp.tgz
+483 verbose lock tar://C:\Users\Anass\AppData\Local\Temp\npm-4232-R-_EpUnE\1383592252738-0.8952441208530217\tmp.tgz C:\Users\Anass\AppData\Roaming\npm-cache\19cdc10f-52738-0-8952441208530217-tmp-tgz.lock
+484 silly gunzTarPerm modes [ '755', '644' ]
+485 silly gunzTarPerm extractEntry package.json
+486 silly gunzTarPerm extractEntry .npmignore
+487 silly gunzTarPerm extractEntry LICENSE
+488 silly gunzTarPerm extractEntry index.js
+489 silly gunzTarPerm extractEntry .travis.yml
+490 silly gunzTarPerm extractEntry Readme.md
+491 silly gunzTarPerm extractEntry lib/cache.js
+492 silly gunzTarPerm extractEntry lib/connect.js
+493 silly gunzTarPerm extractEntry lib/index.js
+494 silly gunzTarPerm extractEntry lib/patch.js
+495 silly gunzTarPerm extractEntry lib/proto.js
+496 silly gunzTarPerm extractEntry lib/utils.js
+497 silly gunzTarPerm extractEntry lib/middleware/basicAuth.js
+498 silly gunzTarPerm extractEntry lib/middleware/errorHandler.js
+499 silly gunzTarPerm extractEntry lib/middleware/favicon.js
+500 silly gunzTarPerm extractEntry lib/middleware/json.js
+501 silly gunzTarPerm extractEntry lib/middleware/limit.js
+502 silly gunzTarPerm extractEntry lib/middleware/directory.js
+503 silly gunzTarPerm extractEntry lib/middleware/methodOverride.js
+504 silly gunzTarPerm extractEntry lib/middleware/multipart.js
+505 silly gunzTarPerm extractEntry lib/middleware/query.js
+506 silly gunzTarPerm extractEntry lib/middleware/responseTime.js
+507 silly gunzTarPerm extractEntry lib/middleware/urlencoded.js
+508 silly gunzTarPerm extractEntry lib/middleware/csrf.js
+509 silly gunzTarPerm extractEntry lib/middleware/session.js
+510 silly gunzTarPerm extractEntry lib/middleware/cookieSession.js
+511 silly gunzTarPerm extractEntry lib/middleware/static.js
+512 silly gunzTarPerm extractEntry lib/middleware/cookieParser.js
+513 silly gunzTarPerm extractEntry lib/middleware/staticCache.js
+514 silly gunzTarPerm extractEntry lib/middleware/compress.js
+515 silly gunzTarPerm extractEntry lib/middleware/timeout.js
+516 silly gunzTarPerm extractEntry lib/middleware/bodyParser.js
+517 silly gunzTarPerm extractEntry lib/middleware/vhost.js
+518 silly gunzTarPerm extractEntry lib/middleware/logger.js
+519 silly gunzTarPerm extractEntry lib/middleware/session/cookie.js
+520 silly gunzTarPerm extractEntry lib/middleware/session/memory.js
+521 silly gunzTarPerm extractEntry lib/middleware/session/session.js
+522 silly gunzTarPerm extractEntry lib/middleware/session/store.js
+523 silly gunzTarPerm extractEntry lib/public/directory.html
+524 silly gunzTarPerm extractEntry lib/public/error.html
+525 silly gunzTarPerm extractEntry lib/public/favicon.ico
+526 silly gunzTarPerm extractEntry lib/public/icons/page_white_edit.png
+527 silly gunzTarPerm extractEntry lib/public/icons/page.png
+528 silly gunzTarPerm extractEntry lib/public/icons/page_attach.png
+529 silly gunzTarPerm extractEntry lib/public/icons/page_code.png
+530 silly gunzTarPerm extractEntry lib/public/icons/page_copy.png
+531 silly gunzTarPerm extractEntry lib/public/icons/page_delete.png
+532 silly gunzTarPerm extractEntry lib/public/icons/page_edit.png
+533 silly gunzTarPerm extractEntry lib/public/icons/page_error.png
+534 silly gunzTarPerm extractEntry lib/public/icons/page_excel.png
+535 silly gunzTarPerm extractEntry lib/public/icons/page_find.png
+536 silly gunzTarPerm extractEntry lib/public/icons/page_gear.png
+537 silly gunzTarPerm extractEntry lib/public/icons/page_go.png
+538 silly gunzTarPerm extractEntry lib/public/icons/page_green.png
+539 silly gunzTarPerm extractEntry lib/public/icons/page_key.png
+540 silly gunzTarPerm extractEntry lib/public/icons/page_lightning.png
+541 silly gunzTarPerm extractEntry lib/public/icons/page_link.png
+542 silly gunzTarPerm extractEntry lib/public/icons/page_paintbrush.png
+543 silly gunzTarPerm extractEntry lib/public/icons/page_paste.png
+544 silly gunzTarPerm extractEntry lib/public/icons/page_red.png
+545 silly gunzTarPerm extractEntry lib/public/icons/page_refresh.png
+546 silly gunzTarPerm extractEntry lib/public/icons/page_save.png
+547 silly gunzTarPerm extractEntry lib/public/icons/page_white.png
+548 silly gunzTarPerm extractEntry lib/public/icons/page_white_acrobat.png
+549 silly gunzTarPerm extractEntry lib/public/icons/page_white_actionscript.png
+550 silly gunzTarPerm extractEntry lib/public/icons/page_white_add.png
+551 silly gunzTarPerm extractEntry lib/public/icons/page_white_c.png
+552 silly gunzTarPerm extractEntry lib/public/icons/page_white_camera.png
+553 silly gunzTarPerm extractEntry lib/public/icons/page_white_cd.png
+554 silly gunzTarPerm extractEntry lib/public/icons/page_white_code.png
+555 silly gunzTarPerm extractEntry lib/public/icons/page_white_code_red.png
+556 silly gunzTarPerm extractEntry lib/public/icons/page_white_coldfusion.png
+557 silly gunzTarPerm extractEntry lib/public/icons/page_white_compressed.png
+558 silly gunzTarPerm extractEntry lib/public/icons/page_white_copy.png
+559 silly gunzTarPerm extractEntry lib/public/icons/page_white_cplusplus.png
+560 silly gunzTarPerm extractEntry lib/public/icons/page_white_csharp.png
+561 silly gunzTarPerm extractEntry lib/public/icons/page_white_cup.png
+562 silly gunzTarPerm extractEntry lib/public/icons/page_white_database.png
+563 silly gunzTarPerm extractEntry lib/public/icons/page_white_delete.png
+564 silly gunzTarPerm extractEntry lib/public/icons/page_white_dvd.png
+565 silly gunzTarPerm extractEntry lib/public/icons/page_add.png
+566 silly gunzTarPerm extractEntry lib/public/icons/page_white_error.png
+567 silly gunzTarPerm extractEntry lib/public/icons/page_white_excel.png
+568 silly gunzTarPerm extractEntry lib/public/icons/page_white_find.png
+569 silly gunzTarPerm extractEntry lib/public/icons/page_white_flash.png
+570 silly gunzTarPerm extractEntry lib/public/icons/page_white_freehand.png
+571 silly gunzTarPerm extractEntry lib/public/icons/page_white_gear.png
+572 silly gunzTarPerm extractEntry lib/public/icons/page_white_get.png
+573 silly gunzTarPerm extractEntry lib/public/icons/page_white_go.png
+574 silly gunzTarPerm extractEntry lib/public/icons/page_white_h.png
+575 silly gunzTarPerm extractEntry lib/public/icons/page_white_horizontal.png
+576 silly gunzTarPerm extractEntry lib/public/icons/page_white_key.png
+577 silly gunzTarPerm extractEntry lib/public/icons/page_white_lightning.png
+578 silly gunzTarPerm extractEntry lib/public/icons/page_white_link.png
+579 silly gunzTarPerm extractEntry lib/public/icons/page_white_magnify.png
+580 silly gunzTarPerm extractEntry lib/public/icons/page_white_medal.png
+581 silly gunzTarPerm extractEntry lib/public/icons/page_white_office.png
+582 silly gunzTarPerm extractEntry lib/public/icons/page_white_paint.png
+583 silly gunzTarPerm extractEntry lib/public/icons/page_white_paintbrush.png
+584 silly gunzTarPerm extractEntry lib/public/icons/page_white_paste.png
+585 silly gunzTarPerm extractEntry lib/public/icons/page_white_php.png
+586 silly gunzTarPerm extractEntry lib/public/icons/page_white_picture.png
+587 silly gunzTarPerm extractEntry lib/public/icons/page_white_powerpoint.png
+588 silly gunzTarPerm extractEntry lib/public/icons/page_white_put.png
+589 silly gunzTarPerm extractEntry lib/public/icons/page_white_ruby.png
+590 silly gunzTarPerm extractEntry lib/public/icons/page_white_stack.png
+591 silly gunzTarPerm extractEntry lib/public/icons/page_white_star.png
+592 silly gunzTarPerm extractEntry lib/public/icons/page_white_swoosh.png
+593 silly gunzTarPerm extractEntry lib/public/icons/page_white_text.png
+594 silly gunzTarPerm extractEntry lib/public/icons/page_white_text_width.png
+595 silly gunzTarPerm extractEntry lib/public/icons/page_white_tux.png
+596 silly gunzTarPerm extractEntry lib/public/icons/page_white_vector.png
+597 silly gunzTarPerm extractEntry lib/public/icons/page_white_visualstudio.png
+598 silly gunzTarPerm extractEntry lib/public/icons/page_white_width.png
+599 silly gunzTarPerm extractEntry lib/public/icons/page_white_word.png
+600 silly gunzTarPerm extractEntry lib/public/icons/page_white_world.png
+601 silly gunzTarPerm extractEntry lib/public/icons/page_white_wrench.png
+602 silly gunzTarPerm extractEntry lib/public/icons/page_white_zip.png
+603 silly gunzTarPerm extractEntry lib/public/icons/page_word.png
+604 silly gunzTarPerm extractEntry lib/public/icons/page_world.png
+605 silly gunzTarPerm extractEntry lib/public/style.css
+606 silly lockFile bb8d4784-52738-0-8952441208530217-package tar://C:\Users\Anass\AppData\Local\Temp\npm-4232-R-_EpUnE\1383592252738-0.8952441208530217\package
+607 silly lockFile bb8d4784-52738-0-8952441208530217-package tar://C:\Users\Anass\AppData\Local\Temp\npm-4232-R-_EpUnE\1383592252738-0.8952441208530217\package
+608 silly lockFile 19cdc10f-52738-0-8952441208530217-tmp-tgz tar://C:\Users\Anass\AppData\Local\Temp\npm-4232-R-_EpUnE\1383592252738-0.8952441208530217\tmp.tgz
+609 silly lockFile 19cdc10f-52738-0-8952441208530217-tmp-tgz tar://C:\Users\Anass\AppData\Local\Temp\npm-4232-R-_EpUnE\1383592252738-0.8952441208530217\tmp.tgz
+610 verbose tar pack [ 'C:\\Users\\Anass\\AppData\\Roaming\\npm-cache\\connect\\2.11.0\\package.tgz',
+610 verbose tar pack   'C:\\Users\\Anass\\AppData\\Local\\Temp\\npm-4232-R-_EpUnE\\1383592252738-0.8952441208530217\\package' ]
+611 verbose tarball C:\Users\Anass\AppData\Roaming\npm-cache\connect\2.11.0\package.tgz
+612 verbose folder C:\Users\Anass\AppData\Local\Temp\npm-4232-R-_EpUnE\1383592252738-0.8952441208530217\package
+613 silly lockFile bb8d4784-52738-0-8952441208530217-package tar://C:\Users\Anass\AppData\Local\Temp\npm-4232-R-_EpUnE\1383592252738-0.8952441208530217\package
+614 verbose lock tar://C:\Users\Anass\AppData\Local\Temp\npm-4232-R-_EpUnE\1383592252738-0.8952441208530217\package C:\Users\Anass\AppData\Roaming\npm-cache\bb8d4784-52738-0-8952441208530217-package.lock
+615 silly lockFile 7209f34d-cache-connect-2-11-0-package-tgz tar://C:\Users\Anass\AppData\Roaming\npm-cache\connect\2.11.0\package.tgz
+616 verbose lock tar://C:\Users\Anass\AppData\Roaming\npm-cache\connect\2.11.0\package.tgz C:\Users\Anass\AppData\Roaming\npm-cache\7209f34d-cache-connect-2-11-0-package-tgz.lock
+617 silly lockFile bb8d4784-52738-0-8952441208530217-package tar://C:\Users\Anass\AppData\Local\Temp\npm-4232-R-_EpUnE\1383592252738-0.8952441208530217\package
+618 silly lockFile bb8d4784-52738-0-8952441208530217-package tar://C:\Users\Anass\AppData\Local\Temp\npm-4232-R-_EpUnE\1383592252738-0.8952441208530217\package
+619 silly lockFile 7209f34d-cache-connect-2-11-0-package-tgz tar://C:\Users\Anass\AppData\Roaming\npm-cache\connect\2.11.0\package.tgz
+620 silly lockFile 7209f34d-cache-connect-2-11-0-package-tgz tar://C:\Users\Anass\AppData\Roaming\npm-cache\connect\2.11.0\package.tgz
+621 silly lockFile 5197b3af-npm-cache-connect-2-11-0-package C:\Users\Anass\AppData\Roaming\npm-cache\connect\2.11.0\package
+622 verbose lock C:\Users\Anass\AppData\Roaming\npm-cache\connect\2.11.0\package C:\Users\Anass\AppData\Roaming\npm-cache\5197b3af-npm-cache-connect-2-11-0-package.lock
+623 silly lockFile 5197b3af-npm-cache-connect-2-11-0-package C:\Users\Anass\AppData\Roaming\npm-cache\connect\2.11.0\package
+624 silly lockFile 5197b3af-npm-cache-connect-2-11-0-package C:\Users\Anass\AppData\Roaming\npm-cache\connect\2.11.0\package
+625 verbose tar unpack C:\Users\Anass\AppData\Roaming\npm-cache\connect\2.11.0\package.tgz
+626 silly lockFile 7871b521-npm-cache-connect-2-11-0-package tar://C:\Users\Anass\AppData\Roaming\npm-cache\connect\2.11.0\package
+627 verbose lock tar://C:\Users\Anass\AppData\Roaming\npm-cache\connect\2.11.0\package C:\Users\Anass\AppData\Roaming\npm-cache\7871b521-npm-cache-connect-2-11-0-package.lock
+628 silly lockFile 7209f34d-cache-connect-2-11-0-package-tgz tar://C:\Users\Anass\AppData\Roaming\npm-cache\connect\2.11.0\package.tgz
+629 verbose lock tar://C:\Users\Anass\AppData\Roaming\npm-cache\connect\2.11.0\package.tgz C:\Users\Anass\AppData\Roaming\npm-cache\7209f34d-cache-connect-2-11-0-package-tgz.lock
+630 silly gunzTarPerm modes [ '755', '644' ]
+631 silly gunzTarPerm extractEntry package.json
+632 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+633 silly gunzTarPerm extractEntry .npmignore
+634 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+635 silly gunzTarPerm extractEntry LICENSE
+636 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+637 silly gunzTarPerm extractEntry index.js
+638 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+639 silly gunzTarPerm extractEntry .travis.yml
+640 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+641 silly gunzTarPerm extractEntry lib/cache.js
+642 silly gunzTarPerm modified mode [ 'lib/cache.js', 438, 420 ]
+643 silly gunzTarPerm extractEntry lib/connect.js
+644 silly gunzTarPerm modified mode [ 'lib/connect.js', 438, 420 ]
+645 silly gunzTarPerm extractEntry lib/index.js
+646 silly gunzTarPerm modified mode [ 'lib/index.js', 438, 420 ]
+647 silly gunzTarPerm extractEntry lib/patch.js
+648 silly gunzTarPerm modified mode [ 'lib/patch.js', 438, 420 ]
+649 silly gunzTarPerm extractEntry lib/proto.js
+650 silly gunzTarPerm modified mode [ 'lib/proto.js', 438, 420 ]
+651 silly gunzTarPerm extractEntry lib/utils.js
+652 silly gunzTarPerm modified mode [ 'lib/utils.js', 438, 420 ]
+653 silly gunzTarPerm extractEntry lib/middleware/basicAuth.js
+654 silly gunzTarPerm modified mode [ 'lib/middleware/basicAuth.js', 438, 420 ]
+655 silly gunzTarPerm extractEntry lib/middleware/errorHandler.js
+656 silly gunzTarPerm modified mode [ 'lib/middleware/errorHandler.js', 438, 420 ]
+657 silly gunzTarPerm extractEntry lib/middleware/favicon.js
+658 silly gunzTarPerm modified mode [ 'lib/middleware/favicon.js', 438, 420 ]
+659 silly gunzTarPerm extractEntry lib/middleware/json.js
+660 silly gunzTarPerm modified mode [ 'lib/middleware/json.js', 438, 420 ]
+661 silly gunzTarPerm extractEntry lib/middleware/limit.js
+662 silly gunzTarPerm modified mode [ 'lib/middleware/limit.js', 438, 420 ]
+663 silly gunzTarPerm extractEntry lib/middleware/directory.js
+664 silly gunzTarPerm modified mode [ 'lib/middleware/directory.js', 438, 420 ]
+665 silly gunzTarPerm extractEntry lib/middleware/methodOverride.js
+666 silly gunzTarPerm modified mode [ 'lib/middleware/methodOverride.js', 438, 420 ]
+667 silly gunzTarPerm extractEntry lib/middleware/multipart.js
+668 silly gunzTarPerm modified mode [ 'lib/middleware/multipart.js', 438, 420 ]
+669 silly gunzTarPerm extractEntry lib/middleware/query.js
+670 silly gunzTarPerm modified mode [ 'lib/middleware/query.js', 438, 420 ]
+671 silly gunzTarPerm extractEntry lib/middleware/responseTime.js
+672 silly gunzTarPerm modified mode [ 'lib/middleware/responseTime.js', 438, 420 ]
+673 silly gunzTarPerm extractEntry lib/middleware/urlencoded.js
+674 silly gunzTarPerm modified mode [ 'lib/middleware/urlencoded.js', 438, 420 ]
+675 silly gunzTarPerm extractEntry lib/middleware/csrf.js
+676 silly gunzTarPerm modified mode [ 'lib/middleware/csrf.js', 438, 420 ]
+677 silly gunzTarPerm extractEntry lib/middleware/session.js
+678 silly gunzTarPerm modified mode [ 'lib/middleware/session.js', 438, 420 ]
+679 silly gunzTarPerm extractEntry lib/middleware/cookieSession.js
+680 silly gunzTarPerm modified mode [ 'lib/middleware/cookieSession.js', 438, 420 ]
+681 silly gunzTarPerm extractEntry lib/middleware/static.js
+682 silly gunzTarPerm modified mode [ 'lib/middleware/static.js', 438, 420 ]
+683 silly gunzTarPerm extractEntry lib/middleware/cookieParser.js
+684 silly gunzTarPerm modified mode [ 'lib/middleware/cookieParser.js', 438, 420 ]
+685 silly gunzTarPerm extractEntry lib/middleware/staticCache.js
+686 silly gunzTarPerm modified mode [ 'lib/middleware/staticCache.js', 438, 420 ]
+687 silly gunzTarPerm extractEntry lib/middleware/compress.js
+688 silly gunzTarPerm modified mode [ 'lib/middleware/compress.js', 438, 420 ]
+689 silly gunzTarPerm extractEntry lib/middleware/timeout.js
+690 silly gunzTarPerm modified mode [ 'lib/middleware/timeout.js', 438, 420 ]
+691 silly gunzTarPerm extractEntry lib/middleware/bodyParser.js
+692 silly gunzTarPerm modified mode [ 'lib/middleware/bodyParser.js', 438, 420 ]
+693 silly gunzTarPerm extractEntry lib/middleware/vhost.js
+694 silly gunzTarPerm modified mode [ 'lib/middleware/vhost.js', 438, 420 ]
+695 silly gunzTarPerm extractEntry lib/middleware/logger.js
+696 silly gunzTarPerm modified mode [ 'lib/middleware/logger.js', 438, 420 ]
+697 silly gunzTarPerm extractEntry lib/middleware/session/cookie.js
+698 silly gunzTarPerm modified mode [ 'lib/middleware/session/cookie.js', 438, 420 ]
+699 silly gunzTarPerm extractEntry lib/middleware/session/memory.js
+700 silly gunzTarPerm modified mode [ 'lib/middleware/session/memory.js', 438, 420 ]
+701 silly gunzTarPerm extractEntry lib/middleware/session/session.js
+702 silly gunzTarPerm modified mode [ 'lib/middleware/session/session.js', 438, 420 ]
+703 silly gunzTarPerm extractEntry lib/middleware/session/store.js
+704 silly gunzTarPerm modified mode [ 'lib/middleware/session/store.js', 438, 420 ]
+705 silly gunzTarPerm extractEntry lib/public/directory.html
+706 silly gunzTarPerm modified mode [ 'lib/public/directory.html', 438, 420 ]
+707 silly gunzTarPerm extractEntry lib/public/error.html
+708 silly gunzTarPerm modified mode [ 'lib/public/error.html', 438, 420 ]
+709 silly gunzTarPerm extractEntry lib/public/favicon.ico
+710 silly gunzTarPerm modified mode [ 'lib/public/favicon.ico', 438, 420 ]
+711 silly gunzTarPerm extractEntry lib/public/icons/page_white_edit.png
+712 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_edit.png', 438, 420 ]
+713 silly gunzTarPerm extractEntry lib/public/icons/page.png
+714 silly gunzTarPerm modified mode [ 'lib/public/icons/page.png', 438, 420 ]
+715 silly gunzTarPerm extractEntry lib/public/icons/page_attach.png
+716 silly gunzTarPerm modified mode [ 'lib/public/icons/page_attach.png', 438, 420 ]
+717 silly gunzTarPerm extractEntry lib/public/icons/page_code.png
+718 silly gunzTarPerm modified mode [ 'lib/public/icons/page_code.png', 438, 420 ]
+719 silly gunzTarPerm extractEntry lib/public/icons/page_copy.png
+720 silly gunzTarPerm modified mode [ 'lib/public/icons/page_copy.png', 438, 420 ]
+721 silly gunzTarPerm extractEntry lib/public/icons/page_delete.png
+722 silly gunzTarPerm modified mode [ 'lib/public/icons/page_delete.png', 438, 420 ]
+723 silly gunzTarPerm extractEntry lib/public/icons/page_edit.png
+724 silly gunzTarPerm modified mode [ 'lib/public/icons/page_edit.png', 438, 420 ]
+725 silly gunzTarPerm extractEntry lib/public/icons/page_error.png
+726 silly gunzTarPerm modified mode [ 'lib/public/icons/page_error.png', 438, 420 ]
+727 silly gunzTarPerm extractEntry lib/public/icons/page_excel.png
+728 silly gunzTarPerm modified mode [ 'lib/public/icons/page_excel.png', 438, 420 ]
+729 silly gunzTarPerm extractEntry lib/public/icons/page_find.png
+730 silly gunzTarPerm modified mode [ 'lib/public/icons/page_find.png', 438, 420 ]
+731 silly gunzTarPerm extractEntry lib/public/icons/page_gear.png
+732 silly gunzTarPerm modified mode [ 'lib/public/icons/page_gear.png', 438, 420 ]
+733 silly gunzTarPerm extractEntry lib/public/icons/page_go.png
+734 silly gunzTarPerm modified mode [ 'lib/public/icons/page_go.png', 438, 420 ]
+735 silly gunzTarPerm extractEntry lib/public/icons/page_green.png
+736 silly gunzTarPerm modified mode [ 'lib/public/icons/page_green.png', 438, 420 ]
+737 silly gunzTarPerm extractEntry lib/public/icons/page_key.png
+738 silly gunzTarPerm modified mode [ 'lib/public/icons/page_key.png', 438, 420 ]
+739 silly gunzTarPerm extractEntry lib/public/icons/page_lightning.png
+740 silly gunzTarPerm modified mode [ 'lib/public/icons/page_lightning.png', 438, 420 ]
+741 silly gunzTarPerm extractEntry lib/public/icons/page_link.png
+742 silly gunzTarPerm modified mode [ 'lib/public/icons/page_link.png', 438, 420 ]
+743 silly gunzTarPerm extractEntry lib/public/icons/page_paintbrush.png
+744 silly gunzTarPerm modified mode [ 'lib/public/icons/page_paintbrush.png', 438, 420 ]
+745 silly gunzTarPerm extractEntry lib/public/icons/page_paste.png
+746 silly gunzTarPerm modified mode [ 'lib/public/icons/page_paste.png', 438, 420 ]
+747 silly gunzTarPerm extractEntry lib/public/icons/page_red.png
+748 silly gunzTarPerm modified mode [ 'lib/public/icons/page_red.png', 438, 420 ]
+749 silly gunzTarPerm extractEntry lib/public/icons/page_refresh.png
+750 silly gunzTarPerm modified mode [ 'lib/public/icons/page_refresh.png', 438, 420 ]
+751 silly gunzTarPerm extractEntry lib/public/icons/page_save.png
+752 silly gunzTarPerm modified mode [ 'lib/public/icons/page_save.png', 438, 420 ]
+753 silly gunzTarPerm extractEntry lib/public/icons/page_white.png
+754 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white.png', 438, 420 ]
+755 silly gunzTarPerm extractEntry lib/public/icons/page_white_acrobat.png
+756 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_acrobat.png', 438, 420 ]
+757 silly gunzTarPerm extractEntry lib/public/icons/page_white_actionscript.png
+758 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_actionscript.png', 438, 420 ]
+759 silly gunzTarPerm extractEntry lib/public/icons/page_white_add.png
+760 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_add.png', 438, 420 ]
+761 silly gunzTarPerm extractEntry lib/public/icons/page_white_c.png
+762 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_c.png', 438, 420 ]
+763 silly gunzTarPerm extractEntry lib/public/icons/page_white_camera.png
+764 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_camera.png', 438, 420 ]
+765 silly gunzTarPerm extractEntry lib/public/icons/page_white_cd.png
+766 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_cd.png', 438, 420 ]
+767 silly gunzTarPerm extractEntry lib/public/icons/page_white_code.png
+768 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_code.png', 438, 420 ]
+769 silly gunzTarPerm extractEntry lib/public/icons/page_white_code_red.png
+770 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_code_red.png', 438, 420 ]
+771 silly gunzTarPerm extractEntry lib/public/icons/page_white_coldfusion.png
+772 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_coldfusion.png', 438, 420 ]
+773 silly gunzTarPerm extractEntry lib/public/icons/page_white_compressed.png
+774 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_compressed.png', 438, 420 ]
+775 silly gunzTarPerm extractEntry lib/public/icons/page_white_copy.png
+776 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_copy.png', 438, 420 ]
+777 silly gunzTarPerm extractEntry lib/public/icons/page_white_cplusplus.png
+778 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_cplusplus.png', 438, 420 ]
+779 silly gunzTarPerm extractEntry lib/public/icons/page_white_csharp.png
+780 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_csharp.png', 438, 420 ]
+781 silly gunzTarPerm extractEntry lib/public/icons/page_white_cup.png
+782 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_cup.png', 438, 420 ]
+783 silly gunzTarPerm extractEntry lib/public/icons/page_white_database.png
+784 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_database.png', 438, 420 ]
+785 silly gunzTarPerm extractEntry lib/public/icons/page_white_delete.png
+786 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_delete.png', 438, 420 ]
+787 silly gunzTarPerm extractEntry lib/public/icons/page_white_dvd.png
+788 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_dvd.png', 438, 420 ]
+789 silly gunzTarPerm extractEntry lib/public/icons/page_add.png
+790 silly gunzTarPerm modified mode [ 'lib/public/icons/page_add.png', 438, 420 ]
+791 silly gunzTarPerm extractEntry lib/public/icons/page_white_error.png
+792 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_error.png', 438, 420 ]
+793 silly gunzTarPerm extractEntry lib/public/icons/page_white_excel.png
+794 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_excel.png', 438, 420 ]
+795 silly gunzTarPerm extractEntry lib/public/icons/page_white_find.png
+796 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_find.png', 438, 420 ]
+797 silly gunzTarPerm extractEntry lib/public/icons/page_white_flash.png
+798 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_flash.png', 438, 420 ]
+799 silly gunzTarPerm extractEntry lib/public/icons/page_white_freehand.png
+800 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_freehand.png', 438, 420 ]
+801 silly gunzTarPerm extractEntry lib/public/icons/page_white_gear.png
+802 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_gear.png', 438, 420 ]
+803 silly gunzTarPerm extractEntry lib/public/icons/page_white_get.png
+804 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_get.png', 438, 420 ]
+805 silly gunzTarPerm extractEntry lib/public/icons/page_white_go.png
+806 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_go.png', 438, 420 ]
+807 silly gunzTarPerm extractEntry lib/public/icons/page_white_h.png
+808 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_h.png', 438, 420 ]
+809 silly gunzTarPerm extractEntry lib/public/icons/page_white_horizontal.png
+810 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_horizontal.png', 438, 420 ]
+811 silly gunzTarPerm extractEntry lib/public/icons/page_white_key.png
+812 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_key.png', 438, 420 ]
+813 silly gunzTarPerm extractEntry lib/public/icons/page_white_lightning.png
+814 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_lightning.png', 438, 420 ]
+815 silly gunzTarPerm extractEntry lib/public/icons/page_white_link.png
+816 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_link.png', 438, 420 ]
+817 silly gunzTarPerm extractEntry lib/public/icons/page_white_magnify.png
+818 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_magnify.png', 438, 420 ]
+819 silly gunzTarPerm extractEntry lib/public/icons/page_white_medal.png
+820 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_medal.png', 438, 420 ]
+821 silly gunzTarPerm extractEntry lib/public/icons/page_white_office.png
+822 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_office.png', 438, 420 ]
+823 silly gunzTarPerm extractEntry lib/public/icons/page_white_paint.png
+824 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_paint.png', 438, 420 ]
+825 silly gunzTarPerm extractEntry lib/public/icons/page_white_paintbrush.png
+826 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_paintbrush.png', 438, 420 ]
+827 silly gunzTarPerm extractEntry lib/public/icons/page_white_paste.png
+828 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_paste.png', 438, 420 ]
+829 silly gunzTarPerm extractEntry lib/public/icons/page_white_php.png
+830 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_php.png', 438, 420 ]
+831 silly gunzTarPerm extractEntry lib/public/icons/page_white_picture.png
+832 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_picture.png', 438, 420 ]
+833 silly gunzTarPerm extractEntry lib/public/icons/page_white_powerpoint.png
+834 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_powerpoint.png', 438, 420 ]
+835 silly gunzTarPerm extractEntry lib/public/icons/page_white_put.png
+836 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_put.png', 438, 420 ]
+837 silly gunzTarPerm extractEntry lib/public/icons/page_white_ruby.png
+838 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_ruby.png', 438, 420 ]
+839 silly gunzTarPerm extractEntry lib/public/icons/page_white_stack.png
+840 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_stack.png', 438, 420 ]
+841 silly gunzTarPerm extractEntry lib/public/icons/page_white_star.png
+842 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_star.png', 438, 420 ]
+843 silly gunzTarPerm extractEntry lib/public/icons/page_white_swoosh.png
+844 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_swoosh.png', 438, 420 ]
+845 silly gunzTarPerm extractEntry lib/public/icons/page_white_text.png
+846 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_text.png', 438, 420 ]
+847 silly gunzTarPerm extractEntry lib/public/icons/page_white_text_width.png
+848 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_text_width.png', 438, 420 ]
+849 silly gunzTarPerm extractEntry lib/public/icons/page_white_tux.png
+850 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_tux.png', 438, 420 ]
+851 silly gunzTarPerm extractEntry lib/public/icons/page_white_vector.png
+852 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_vector.png', 438, 420 ]
+853 silly gunzTarPerm extractEntry lib/public/icons/page_white_visualstudio.png
+854 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_visualstudio.png', 438, 420 ]
+855 silly gunzTarPerm extractEntry lib/public/icons/page_white_width.png
+856 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_width.png', 438, 420 ]
+857 silly gunzTarPerm extractEntry lib/public/icons/page_white_word.png
+858 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_word.png', 438, 420 ]
+859 silly gunzTarPerm extractEntry lib/public/icons/page_white_world.png
+860 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_world.png', 438, 420 ]
+861 silly gunzTarPerm extractEntry lib/public/icons/page_white_wrench.png
+862 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_wrench.png', 438, 420 ]
+863 silly gunzTarPerm extractEntry lib/public/icons/page_white_zip.png
+864 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_zip.png', 438, 420 ]
+865 silly gunzTarPerm extractEntry lib/public/icons/page_word.png
+866 silly gunzTarPerm modified mode [ 'lib/public/icons/page_word.png', 438, 420 ]
+867 silly gunzTarPerm extractEntry lib/public/icons/page_world.png
+868 silly gunzTarPerm modified mode [ 'lib/public/icons/page_world.png', 438, 420 ]
+869 silly gunzTarPerm extractEntry lib/public/style.css
+870 silly gunzTarPerm modified mode [ 'lib/public/style.css', 438, 420 ]
+871 silly gunzTarPerm extractEntry Readme.md
+872 silly gunzTarPerm modified mode [ 'Readme.md', 438, 420 ]
+873 silly lockFile 7871b521-npm-cache-connect-2-11-0-package tar://C:\Users\Anass\AppData\Roaming\npm-cache\connect\2.11.0\package
+874 silly lockFile 7871b521-npm-cache-connect-2-11-0-package tar://C:\Users\Anass\AppData\Roaming\npm-cache\connect\2.11.0\package
+875 silly lockFile 7209f34d-cache-connect-2-11-0-package-tgz tar://C:\Users\Anass\AppData\Roaming\npm-cache\connect\2.11.0\package.tgz
+876 silly lockFile 7209f34d-cache-connect-2-11-0-package-tgz tar://C:\Users\Anass\AppData\Roaming\npm-cache\connect\2.11.0\package.tgz
+877 verbose chmod C:\Users\Anass\AppData\Roaming\npm-cache\connect\2.11.0\package.tgz 644
+878 silly chown skipping for windows C:\Users\Anass\AppData\Roaming\npm-cache\connect\2.11.0\package.tgz
+879 silly lockFile a757645a-s-org-connect-connect-2-11-0-tgz https://registry.npmjs.org/connect/-/connect-2.11.0.tgz
+880 silly lockFile a757645a-s-org-connect-connect-2-11-0-tgz https://registry.npmjs.org/connect/-/connect-2.11.0.tgz
+881 silly lockFile 5ddacddd-connect-2-11-0 connect@2.11.0
+882 silly lockFile 5ddacddd-connect-2-11-0 connect@2.11.0
+883 http 304 https://registry.npmjs.org/cookie-signature/1.0.1
+884 silly registry.get cb [ 304,
+884 silly registry.get   { server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+884 silly registry.get     etag: '"332BQXGWC1DJFGGZJ0ETUQXA6"',
+884 silly registry.get     date: 'Mon, 04 Nov 2013 19:11:06 GMT',
+884 silly registry.get     'content-length': '0' } ]
+885 verbose etag cookie-signature/1.0.1 from cache
+886 silly lockFile d4a1eba1-cookie-signature-1-0-1 cookie-signature@1.0.1
+887 silly lockFile d4a1eba1-cookie-signature-1-0-1 cookie-signature@1.0.1
+888 http 304 https://registry.npmjs.org/debug
+889 silly registry.get cb [ 304,
+889 silly registry.get   { server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+889 silly registry.get     etag: '"4WJS11NM29KGTOE5SMRSNAKOZ"',
+889 silly registry.get     date: 'Mon, 04 Nov 2013 19:11:06 GMT',
+889 silly registry.get     'content-length': '0' } ]
+890 verbose etag debug from cache
+891 silly addNameRange number 2 { name: 'debug', range: '*', hasData: true }
+892 silly addNameRange versions [ 'debug',
+892 silly addNameRange   [ '0.0.1',
+892 silly addNameRange     '0.1.0',
+892 silly addNameRange     '0.2.0',
+892 silly addNameRange     '0.3.0',
+892 silly addNameRange     '0.4.0',
+892 silly addNameRange     '0.4.1',
+892 silly addNameRange     '0.5.0',
+892 silly addNameRange     '0.6.0',
+892 silly addNameRange     '0.7.0',
+892 silly addNameRange     '0.7.1',
+892 silly addNameRange     '0.7.2',
+892 silly addNameRange     '0.7.3' ] ]
+893 verbose addNamed [ 'debug', '0.7.3' ]
+894 verbose addNamed [ '0.7.3', '0.7.3' ]
+895 silly lockFile 2d910265-debug-0-7-3 debug@0.7.3
+896 verbose lock debug@0.7.3 C:\Users\Anass\AppData\Roaming\npm-cache\2d910265-debug-0-7-3.lock
+897 http 304 https://registry.npmjs.org/cookie/0.1.0
+898 silly registry.get cb [ 304,
+898 silly registry.get   { server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+898 silly registry.get     etag: '"F1R4EMW6NEBFUL3OK9Q9DKBJF"',
+898 silly registry.get     date: 'Mon, 04 Nov 2013 19:11:06 GMT',
+898 silly registry.get     'content-length': '0' } ]
+899 verbose etag cookie/0.1.0 from cache
+900 silly lockFile 2d910265-debug-0-7-3 debug@0.7.3
+901 silly lockFile 2d910265-debug-0-7-3 debug@0.7.3
+902 silly lockFile 3ac45eff-debug debug@*
+903 silly lockFile 3ac45eff-debug debug@*
+904 silly lockFile b55e145e-cookie-0-1-0 cookie@0.1.0
+905 silly lockFile b55e145e-cookie-0-1-0 cookie@0.1.0
+906 http 304 https://registry.npmjs.org/range-parser/0.0.4
+907 silly registry.get cb [ 304,
+907 silly registry.get   { server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+907 silly registry.get     etag: '"27HRUXP1C4FYWUHH9AKW9J76C"',
+907 silly registry.get     date: 'Mon, 04 Nov 2013 19:11:07 GMT',
+907 silly registry.get     'content-length': '0' } ]
+908 verbose etag range-parser/0.0.4 from cache
+909 silly lockFile 0760c556-range-parser-0-0-4 range-parser@0.0.4
+910 silly lockFile 0760c556-range-parser-0-0-4 range-parser@0.0.4
+911 info trying registry request attempt 3 at 18:11:43
+912 http GET https://registry.npmjs.org/commander/1.3.2
+913 silly lockFile 2016e061-commander-1-3-2 commander@1.3.2
+914 silly lockFile 2016e061-commander-1-3-2 commander@1.3.2
+915 verbose about to build C:\Users\Anass\Desktop\DOSI\TestNodeJS\node_modules\express
+916 info C:\Users\Anass\Desktop\DOSI\TestNodeJS\node_modules\express unbuild
+917 info preuninstall express@3.4.4
+918 info uninstall express@3.4.4
+919 verbose true,C:\Users\Anass\Desktop\DOSI\TestNodeJS\node_modules,C:\Users\Anass\Desktop\DOSI\TestNodeJS\node_modules unbuild express@3.4.4
+920 verbose C:\Users\Anass\Desktop\DOSI\TestNodeJS\node_modules\.bin,[object Object] binRoot
+921 info postuninstall express@3.4.4
+922 error network socket hang up
+922 error network This is most likely not a problem with npm itself
+922 error network and is related to network connectivity.
+922 error network In most cases you are behind a proxy or have bad network settings.
+922 error network
+922 error network If you are behind a proxy, please make sure that the
+922 error network 'proxy' config is set properly.  See: 'npm help config'
+923 error System Windows_NT 6.1.7601
+924 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "express"
+925 error cwd C:\Users\Anass\Desktop\DOSI\TestNodeJS
+926 error node -v v0.10.21
+927 error npm -v 1.3.11
+928 error code ECONNRESET
+929 verbose exit [ 1, true ]
